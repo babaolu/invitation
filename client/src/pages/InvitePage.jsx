@@ -166,8 +166,8 @@ export default function InvitePage() {
 
             {/* Event Details */}
             <div className="event-details">
-              Sunday, July 5th, 2026 — 11:00am<br />
-              <strong>RCCG, Livingston Assembly, EH54 6LT</strong><br />
+              Sunday, July 5th, 2026 — 2:30pm<br />
+              <strong>Harburn Village Hall, West Calder, EH55 8RF</strong><br />
               Dress like an African, or a touch of teal blue
             </div>
 

@@ -6,6 +6,12 @@ export default function AdminGuests() {
   const [guests, setGuests] = useState([]);
   const [loading, setLoading] = useState(true);
   const [savingId, setSavingId] = useState(null);
+  
+  // Add Guest form state
+  const [newFullName, setNewFullName] = useState('');
+  const [newTableNumber, setNewTableNumber] = useState('');
+  const [formError, setFormError] = useState(null);
+  
   const navigate = useNavigate();
 
   async function loadGuests() {
@@ -22,6 +28,41 @@ export default function AdminGuests() {
 
   useEffect(() => { loadGuests(); }, []);
 
+  async function handleAddGuest(e) {
+    e.preventDefault();
+    setFormError(null);
+    if (!newFullName.trim() || !newTableNumber) {
+      setFormError('Name and table number are required');
+      return;
+    }
+
+    try {
+      const { data: { session } } = await supabase.auth.getSession();
+      if (!session) { navigate('/admin'); return; }
+
+      const res = await fetch(`${API_BASE}/api/admin/guests`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          Authorization: `Bearer ${session.access_token}`,
+        },
+        body: JSON.stringify({
+          full_name: newFullName.trim(),
+          table_number: Number(newTableNumber),
+        }),
+      });
+
+      const data = await res.json();
+      if (!res.ok) throw new Error(data.error || 'Failed to add guest');
+
+      setNewFullName('');
+      setNewTableNumber('');
+      await loadGuests();
+    } catch (err) {
+      setFormError(err.message);
+    }
+  }
+
   async function updateTable(guestId, newTable) {
     setSavingId(guestId);
     const { data: { session } } = await supabase.auth.getSession();
@@ -35,6 +76,31 @@ export default function AdminGuests() {
     });
     await loadGuests();
     setSavingId(null);
+  }
+
+  async function handleDeleteGuest(guestId, fullName) {
+    if (!window.confirm(`Remove ${fullName}? This cannot be undone.`)) return;
+
+    try {
+      const { data: { session } } = await supabase.auth.getSession();
+      if (!session) { navigate('/admin'); return; }
+
+      const res = await fetch(`${API_BASE}/api/admin/guests/${guestId}`, {
+        method: 'DELETE',
+        headers: {
+          Authorization: `Bearer ${session.access_token}`,
+        },
+      });
+
+      if (!res.ok) {
+        const data = await res.json();
+        throw new Error(data.error || 'Failed to delete guest');
+      }
+
+      await loadGuests();
+    } catch (err) {
+      alert(err.message);
+    }
   }
 
   async function handleLogout() {
@@ -54,12 +120,36 @@ export default function AdminGuests() {
         </div>
       </div>
 
+      {/* Add Guest Form */}
+      <form onSubmit={handleAddGuest} className="add-guest-form">
+        <input
+          type="text"
+          placeholder="Guest Full Name"
+          value={newFullName}
+          onChange={(e) => setNewFullName(e.target.value)}
+          required
+        />
+        <input
+          type="number"
+          placeholder="Table"
+          value={newTableNumber}
+          onChange={(e) => setNewTableNumber(e.target.value)}
+          required
+          min="1"
+          max="18"
+          style={{ width: '80px' }}
+        />
+        <button type="submit">Add Guest</button>
+        {formError && <span className="form-error">{formError}</span>}
+      </form>
+
       <table className="guest-table">
         <thead>
           <tr>
             <th>Name</th>
             <th>Table</th>
             <th>Seating Link</th>
+            <th>Actions</th>
           </tr>
         </thead>
         <tbody>
@@ -83,6 +173,11 @@ export default function AdminGuests() {
                   /invite/{g.slug}
                 </a>
               </td>
+              <td data-label="Actions">
+                <button onClick={() => handleDeleteGuest(g.id, g.full_name)} className="delete-btn">
+                  Remove
+                </button>
+              </td>
             </tr>
           ))}
         </tbody>
@@ -95,15 +190,80 @@ export default function AdminGuests() {
         .admin-nav { display: flex; gap: 16px; align-items: center; }
         .admin-nav a { color: #7a9aaa; text-decoration: none; font-size: 14px; }
         .admin-nav button { padding: 8px 16px; border: none; border-radius: 20px; background: #7a9aaa; color: #fff; cursor: pointer; font-family: inherit; font-size: 13px; }
+        
+        .add-guest-form {
+          background: #fff;
+          padding: 20px 24px;
+          border-radius: 8px;
+          border: 1px solid #ddeaf0;
+          margin-bottom: 24px;
+          display: flex;
+          align-items: center;
+          gap: 12px;
+          flex-wrap: wrap;
+        }
+        .add-guest-form input {
+          padding: 8px 12px;
+          border: 1px solid #ddeaf0;
+          border-radius: 4px;
+          font-family: inherit;
+          font-size: 13px;
+          outline: none;
+        }
+        .add-guest-form input:focus {
+          border-color: #7a9aaa;
+        }
+        .add-guest-form input[type="text"] {
+          flex: 1;
+          min-width: 200px;
+        }
+        .add-guest-form button {
+          padding: 8px 20px;
+          border: none;
+          border-radius: 20px;
+          background: #7a9aaa;
+          color: #fff;
+          font-family: inherit;
+          font-size: 13px;
+          cursor: pointer;
+        }
+        .add-guest-form button:hover {
+          background-color: #628292;
+        }
+        .form-error {
+          color: #c66;
+          font-size: 12px;
+          font-weight: 500;
+        }
+
         .guest-table { width: 100%; border-collapse: collapse; background: #fff; border-radius: 8px; overflow: hidden; }
         .guest-table th, .guest-table td { padding: 10px 14px; text-align: left; border-bottom: 1px solid #eee; font-size: 13px; }
         .guest-table th { background: #eaf2f6; color: #4a6070; text-transform: uppercase; font-size: 11px; letter-spacing: 0.08em; }
         .guest-table input { width: 60px; padding: 4px 8px; border: 1px solid #ddeaf0; border-radius: 4px; font-family: inherit; }
 
+        .delete-btn {
+          background: #fdf2f2;
+          color: #9b1c1c;
+          border: 1px solid #f8b4b4;
+          padding: 4px 10px;
+          border-radius: 12px;
+          font-family: inherit;
+          font-size: 11px;
+          cursor: pointer;
+          transition: all 0.2s;
+        }
+        .delete-btn:hover {
+          background: #fde8e8;
+          border-color: #f38b8b;
+        }
+
         @media (max-width: 600px) {
           .admin-wrap { padding: 16px; }
           .admin-header { flex-direction: column; align-items: flex-start; gap: 16px; }
           .admin-nav { width: 100%; justify-content: space-between; }
+          .add-guest-form { flex-direction: column; align-items: stretch; padding: 16px; }
+          .add-guest-form input[type="text"] { min-width: 0; }
+          .add-guest-form input { width: 100% !important; }
           
           /* Stacked Card Layout on Mobile */
           .guest-table, .guest-table thead, .guest-table tbody, .guest-table tr, .guest-table td {

@@ -536,7 +536,7 @@
       "label": "router",
       "file_type": "code",
       "source_file": "server/routes/adminGuests.js",
-      "source_location": "L4",
+      "source_location": "L5",
       "_origin": "ast",
       "id": "routes_adminguests_router",
       "community": 0,
@@ -546,11 +546,21 @@
       "label": "requireAdmin()",
       "file_type": "code",
       "source_file": "server/routes/adminGuests.js",
-      "source_location": "L6",
+      "source_location": "L7",
       "_origin": "ast",
       "id": "routes_adminguests_requireadmin",
       "community": 0,
       "norm_label": "requireadmin()"
+    },
+    {
+      "label": "generateSlug()",
+      "file_type": "code",
+      "source_file": "server/routes/adminGuests.js",
+      "source_location": "L16",
+      "_origin": "ast",
+      "id": "routes_adminguests_generateslug",
+      "community": 0,
+      "norm_label": "generateslug()"
     },
     {
       "label": "invite.js",
@@ -741,6 +751,46 @@
       "id": "workflows_graphify_workflow_graphify",
       "community": 12,
       "norm_label": "workflow: graphify"
+    },
+    {
+      "label": "AGENT_HANDOFF.md",
+      "file_type": "document",
+      "source_file": "AGENT_HANDOFF.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "agent_handoff",
+      "community": 14,
+      "norm_label": "agent_handoff.md"
+    },
+    {
+      "label": "AGENT HANDOFF \u2014 Enoch's Dedication Guest Seating System",
+      "file_type": "document",
+      "source_file": "AGENT_HANDOFF.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "agent_handoff_agent_handoff_enoch_s_dedication_guest_seating_system",
+      "community": 14,
+      "norm_label": "agent handoff \u2014 enoch's dedication guest seating system"
+    },
+    {
+      "label": "1. What is DONE",
+      "file_type": "document",
+      "source_file": "AGENT_HANDOFF.md",
+      "source_location": "L7",
+      "_origin": "ast",
+      "id": "agent_handoff_1_what_is_done",
+      "community": 14,
+      "norm_label": "1. what is done"
+    },
+    {
+      "label": "2. Technical Palette & Variants",
+      "file_type": "document",
+      "source_file": "AGENT_HANDOFF.md",
+      "source_location": "L22",
+      "_origin": "ast",
+      "id": "agent_handoff_2_technical_palette_variants",
+      "community": 14,
+      "norm_label": "2. technical palette & variants"
     },
     {
       "label": "README.md",
@@ -1648,6 +1698,16 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "server/routes/adminGuests.js",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "routes_adminguests",
+      "target": "routes_adminguests_generateslug",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "server/routes/adminGuests.js",
       "source_location": "L6",
       "weight": 1.0,
       "confidence_score": 1.0,
@@ -1907,6 +1967,36 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "AGENT_HANDOFF.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "agent_handoff",
+      "target": "agent_handoff_agent_handoff_enoch_s_dedication_guest_seating_system",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "AGENT_HANDOFF.md",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "agent_handoff_agent_handoff_enoch_s_dedication_guest_seating_system",
+      "target": "agent_handoff_1_what_is_done",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "AGENT_HANDOFF.md",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "agent_handoff_agent_handoff_enoch_s_dedication_guest_seating_system",
+      "target": "agent_handoff_2_technical_palette_variants",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "README.md",
       "source_location": "L1",
       "weight": 1.0,
@@ -2121,5 +2211,5 @@
       "source_file": "README.md"
     }
   ],
-  "built_at_commit": "9dc5147b7096d4618203478ee87ebb71a1c50829"
+  "built_at_commit": "17b36840563a993ee550f93420e53fb574dc1c49"
 }

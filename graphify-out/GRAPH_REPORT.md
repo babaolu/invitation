@@ -1,16 +1,16 @@
 # Graph Report - enoch-invites_2  (2026-07-04)
 
 ## Corpus Check
-- 22 files · ~10,518 words
+- 23 files · ~11,313 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 95 nodes · 106 edges · 14 communities (9 shown, 5 thin omitted)
+- 100 nodes · 110 edges · 15 communities (10 shown, 5 thin omitted)
 - Extraction: 98% EXTRACTED · 2% INFERRED · 0% AMBIGUOUS · INFERRED: 2 edges (avg confidence: 0.85)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `9dc5147b`
+- Built from commit: `17b36840`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -28,6 +28,7 @@
 - [[_COMMUNITY_Community 11|Community 11]]
 - [[_COMMUNITY_Community 12|Community 12]]
 - [[_COMMUNITY_Community 13|Community 13]]
+- [[_COMMUNITY_Community 14|Community 14]]
 
 ## God Nodes (most connected - your core abstractions)
 1. `Enoch's Dedication — Guest Invitation System` - 12 edges
@@ -37,9 +38,9 @@
 5. `supabase` - 4 edges
 6. `scripts` - 3 edges
 7. `renderInvitationHTML()` - 3 edges
-8. `App()` - 2 edges
-9. `AdminGuests()` - 2 edges
-10. `AdminLogin()` - 2 edges
+8. `AGENT HANDOFF — Enoch's Dedication Guest Seating System` - 3 edges
+9. `App()` - 2 edges
+10. `AdminGuests()` - 2 edges
 
 ## Surprising Connections (you probably didn't know these)
 - `Enoch's Dedication — Guest Invitation System` --references--> `server/index.js`  [EXTRACTED]
@@ -58,10 +59,10 @@
 - **System Architecture** — server_index_js, client_index_html, supabase_schema_sql [EXTRACTED 1.00]
 - **Admin Management Flow** — readme_admin_dashboard, readme_seating_directory, supabase_schema_sql [INFERRED 0.85]
 
-## Communities (14 total, 5 thin omitted)
+## Communities (15 total, 5 thin omitted)
 
 ### Community 0 - "Backend Routing"
-Cohesion: 0.20
+Cohesion: 0.18
 Nodes (7): router, router, buildShuffledDirectory(), router, shuffle(), app, supabase
 
 ### Community 1 - "Server Package Config"
@@ -92,8 +93,12 @@ Nodes (3): CENTER_ORNAMENTS, escapeHtml(), renderInvitationHTML()
 Cohesion: 0.29
 Nodes (7): 1. Create a Supabase project, 2. Run the database schema, 3. Create your admin login, 4. Configure the server, 5. Configure the client, 6. Try it out, Setup — step by step
 
+### Community 14 - "Community 14"
+Cohesion: 0.50
+Nodes (3): 1. What is DONE, 2. Technical Palette & Variants, AGENT HANDOFF — Enoch's Dedication Guest Seating System
+
 ## Knowledge Gaps
-- **50 isolated node(s):** `name`, `private`, `version`, `type`, `dev` (+45 more)
+- **52 isolated node(s):** `name`, `private`, `version`, `type`, `dev` (+47 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **5 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
@@ -101,12 +106,12 @@ Nodes (7): 1. Create a Supabase project, 2. Run the database schema, 3. Create y
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `Enoch's Dedication — Guest Invitation System` connect `Core Project Configuration` to `Community 10`?**
-  _High betweenness centrality (0.034) - this node is a cross-community bridge._
+  _High betweenness centrality (0.031) - this node is a cross-community bridge._
 - **Why does `Setup — step by step` connect `Community 10` to `Core Project Configuration`?**
-  _High betweenness centrality (0.021) - this node is a cross-community bridge._
+  _High betweenness centrality (0.019) - this node is a cross-community bridge._
 - **Why does `dependencies` connect `Community 5` to `Client Build Tooling`?**
-  _High betweenness centrality (0.016) - this node is a cross-community bridge._
+  _High betweenness centrality (0.014) - this node is a cross-community bridge._
 - **What connects `name`, `private`, `version` to the rest of the system?**
-  _50 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _52 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Server Package Config` be split into smaller, more focused modules?**
   _Cohesion score 0.14285714285714285 - nodes in this community are weakly interconnected._

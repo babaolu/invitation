@@ -33,6 +33,236 @@
   },
   "nodes": [
     {
+      "label": "package.json",
+      "file_type": "code",
+      "source_file": "client/package.json",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "client_package",
+      "community": 3,
+      "norm_label": "package.json"
+    },
+    {
+      "label": "name",
+      "file_type": "code",
+      "source_file": "client/package.json",
+      "source_location": "L2",
+      "_origin": "ast",
+      "id": "client_package_name",
+      "community": 3,
+      "norm_label": "name"
+    },
+    {
+      "label": "private",
+      "file_type": "code",
+      "source_file": "client/package.json",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "client_package_private",
+      "community": 3,
+      "norm_label": "private"
+    },
+    {
+      "label": "version",
+      "file_type": "code",
+      "source_file": "client/package.json",
+      "source_location": "L4",
+      "_origin": "ast",
+      "id": "client_package_version",
+      "community": 3,
+      "norm_label": "version"
+    },
+    {
+      "label": "type",
+      "file_type": "code",
+      "source_file": "client/package.json",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "client_package_type",
+      "community": 3,
+      "norm_label": "type"
+    },
+    {
+      "label": "scripts",
+      "file_type": "code",
+      "source_file": "client/package.json",
+      "source_location": "L6",
+      "_origin": "ast",
+      "id": "client_package_scripts",
+      "community": 3,
+      "norm_label": "scripts"
+    },
+    {
+      "label": "dev",
+      "file_type": "code",
+      "source_file": "client/package.json",
+      "source_location": "L7",
+      "_origin": "ast",
+      "id": "client_package_scripts_dev",
+      "community": 3,
+      "norm_label": "dev"
+    },
+    {
+      "label": "build",
+      "file_type": "code",
+      "source_file": "client/package.json",
+      "source_location": "L8",
+      "_origin": "ast",
+      "id": "client_package_scripts_build",
+      "community": 3,
+      "norm_label": "build"
+    },
+    {
+      "label": "preview",
+      "file_type": "code",
+      "source_file": "client/package.json",
+      "source_location": "L9",
+      "_origin": "ast",
+      "id": "client_package_scripts_preview",
+      "community": 3,
+      "norm_label": "preview"
+    },
+    {
+      "label": "dependencies",
+      "file_type": "code",
+      "source_file": "client/package.json",
+      "source_location": "L11",
+      "_origin": "ast",
+      "id": "client_package_dependencies",
+      "community": 5,
+      "norm_label": "dependencies"
+    },
+    {
+      "label": "@supabase/supabase-js",
+      "file_type": "code",
+      "source_file": "client/package.json",
+      "source_location": "L12",
+      "_origin": "ast",
+      "id": "client_package_dependencies_supabase_supabase_js",
+      "community": 5,
+      "norm_label": "@supabase/supabase-js"
+    },
+    {
+      "label": "qrcode.react",
+      "file_type": "code",
+      "source_file": "client/package.json",
+      "source_location": "L13",
+      "_origin": "ast",
+      "id": "client_package_dependencies_qrcode_react",
+      "community": 5,
+      "norm_label": "qrcode.react"
+    },
+    {
+      "label": "react",
+      "file_type": "code",
+      "source_file": "client/package.json",
+      "source_location": "L14",
+      "_origin": "ast",
+      "id": "client_package_dependencies_react",
+      "community": 5,
+      "norm_label": "react"
+    },
+    {
+      "label": "react-dom",
+      "file_type": "code",
+      "source_file": "client/package.json",
+      "source_location": "L15",
+      "_origin": "ast",
+      "id": "client_package_dependencies_react_dom",
+      "community": 5,
+      "norm_label": "react-dom"
+    },
+    {
+      "label": "react-router-dom",
+      "file_type": "code",
+      "source_file": "client/package.json",
+      "source_location": "L16",
+      "_origin": "ast",
+      "id": "client_package_dependencies_react_router_dom",
+      "community": 5,
+      "norm_label": "react-router-dom"
+    },
+    {
+      "label": "devDependencies",
+      "file_type": "code",
+      "source_file": "client/package.json",
+      "source_location": "L18",
+      "_origin": "ast",
+      "id": "client_package_devdependencies",
+      "community": 3,
+      "norm_label": "devdependencies"
+    },
+    {
+      "label": "@vitejs/plugin-react",
+      "file_type": "code",
+      "source_file": "client/package.json",
+      "source_location": "L19",
+      "_origin": "ast",
+      "id": "client_package_devdependencies_vitejs_plugin_react",
+      "community": 3,
+      "norm_label": "@vitejs/plugin-react"
+    },
+    {
+      "label": "vite",
+      "file_type": "code",
+      "source_file": "client/package.json",
+      "source_location": "L20",
+      "_origin": "ast",
+      "id": "client_package_devdependencies_vite",
+      "community": 3,
+      "norm_label": "vite"
+    },
+    {
+      "label": "App.jsx",
+      "file_type": "code",
+      "source_file": "client/src/App.jsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "src_app",
+      "community": 2,
+      "norm_label": "app.jsx"
+    },
+    {
+      "label": "App()",
+      "file_type": "code",
+      "source_file": "client/src/App.jsx",
+      "source_location": "L7",
+      "_origin": "ast",
+      "id": "src_app_app",
+      "community": 2,
+      "norm_label": "app()"
+    },
+    {
+      "label": "supabaseClient.js",
+      "file_type": "code",
+      "source_file": "client/src/lib/supabaseClient.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "lib_supabaseclient",
+      "community": 2,
+      "norm_label": "supabaseclient.js"
+    },
+    {
+      "label": "supabase",
+      "file_type": "code",
+      "source_file": "client/src/lib/supabaseClient.js",
+      "source_location": "L28",
+      "_origin": "ast",
+      "id": "lib_supabaseclient_supabase",
+      "community": 2,
+      "norm_label": "supabase"
+    },
+    {
+      "label": "main.jsx",
+      "file_type": "code",
+      "source_file": "client/src/main.jsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "src_main",
+      "community": 2,
+      "norm_label": "main.jsx"
+    },
+    {
       "label": "AdminGuests.jsx",
       "file_type": "code",
       "source_file": "client/src/pages/AdminGuests.jsx",
@@ -51,6 +281,26 @@
       "id": "pages_adminguests_adminguests",
       "community": 2,
       "norm_label": "adminguests()"
+    },
+    {
+      "label": "AdminLogin.jsx",
+      "file_type": "code",
+      "source_file": "client/src/pages/AdminLogin.jsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "pages_adminlogin",
+      "community": 2,
+      "norm_label": "adminlogin.jsx"
+    },
+    {
+      "label": "AdminLogin()",
+      "file_type": "code",
+      "source_file": "client/src/pages/AdminLogin.jsx",
+      "source_location": "L27",
+      "_origin": "ast",
+      "id": "pages_adminlogin_adminlogin",
+      "community": 2,
+      "norm_label": "adminlogin()"
     },
     {
       "label": "InvitePage.jsx",
@@ -81,6 +331,226 @@
       "id": "pages_invitepage_invitepage",
       "community": 2,
       "norm_label": "invitepage()"
+    },
+    {
+      "label": "SeatingDirectory.jsx",
+      "file_type": "code",
+      "source_file": "client/src/pages/SeatingDirectory.jsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "pages_seatingdirectory",
+      "community": 2,
+      "norm_label": "seatingdirectory.jsx"
+    },
+    {
+      "label": "SeatingDirectory()",
+      "file_type": "code",
+      "source_file": "client/src/pages/SeatingDirectory.jsx",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "pages_seatingdirectory_seatingdirectory",
+      "community": 2,
+      "norm_label": "seatingdirectory()"
+    },
+    {
+      "label": "vite.config.js",
+      "file_type": "code",
+      "source_file": "client/vite.config.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "client_vite_config",
+      "community": 8,
+      "norm_label": "vite.config.js"
+    },
+    {
+      "label": "index.js",
+      "file_type": "code",
+      "source_file": "server/index.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "server_index",
+      "community": 0,
+      "norm_label": "index.js"
+    },
+    {
+      "label": "app",
+      "file_type": "code",
+      "source_file": "server/index.js",
+      "source_location": "L10",
+      "_origin": "ast",
+      "id": "server_index_app",
+      "community": 0,
+      "norm_label": "app"
+    },
+    {
+      "label": "package.json",
+      "file_type": "code",
+      "source_file": "server/package.json",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "server_package",
+      "community": 1,
+      "norm_label": "package.json"
+    },
+    {
+      "label": "name",
+      "file_type": "code",
+      "source_file": "server/package.json",
+      "source_location": "L2",
+      "_origin": "ast",
+      "id": "server_package_name",
+      "community": 1,
+      "norm_label": "name"
+    },
+    {
+      "label": "version",
+      "file_type": "code",
+      "source_file": "server/package.json",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "server_package_version",
+      "community": 1,
+      "norm_label": "version"
+    },
+    {
+      "label": "type",
+      "file_type": "code",
+      "source_file": "server/package.json",
+      "source_location": "L4",
+      "_origin": "ast",
+      "id": "server_package_type",
+      "community": 1,
+      "norm_label": "type"
+    },
+    {
+      "label": "scripts",
+      "file_type": "code",
+      "source_file": "server/package.json",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "server_package_scripts",
+      "community": 1,
+      "norm_label": "scripts"
+    },
+    {
+      "label": "dev",
+      "file_type": "code",
+      "source_file": "server/package.json",
+      "source_location": "L6",
+      "_origin": "ast",
+      "id": "server_package_scripts_dev",
+      "community": 1,
+      "norm_label": "dev"
+    },
+    {
+      "label": "start",
+      "file_type": "code",
+      "source_file": "server/package.json",
+      "source_location": "L7",
+      "_origin": "ast",
+      "id": "server_package_scripts_start",
+      "community": 1,
+      "norm_label": "start"
+    },
+    {
+      "label": "dependencies",
+      "file_type": "code",
+      "source_file": "server/package.json",
+      "source_location": "L9",
+      "_origin": "ast",
+      "id": "server_package_dependencies",
+      "community": 1,
+      "norm_label": "dependencies"
+    },
+    {
+      "label": "@supabase/supabase-js",
+      "file_type": "code",
+      "source_file": "server/package.json",
+      "source_location": "L10",
+      "_origin": "ast",
+      "id": "server_package_dependencies_supabase_supabase_js",
+      "community": 1,
+      "norm_label": "@supabase/supabase-js"
+    },
+    {
+      "label": "cors",
+      "file_type": "code",
+      "source_file": "server/package.json",
+      "source_location": "L11",
+      "_origin": "ast",
+      "id": "server_package_dependencies_cors",
+      "community": 1,
+      "norm_label": "cors"
+    },
+    {
+      "label": "dotenv",
+      "file_type": "code",
+      "source_file": "server/package.json",
+      "source_location": "L12",
+      "_origin": "ast",
+      "id": "server_package_dependencies_dotenv",
+      "community": 1,
+      "norm_label": "dotenv"
+    },
+    {
+      "label": "express",
+      "file_type": "code",
+      "source_file": "server/package.json",
+      "source_location": "L13",
+      "_origin": "ast",
+      "id": "server_package_dependencies_express",
+      "community": 1,
+      "norm_label": "express"
+    },
+    {
+      "label": "puppeteer",
+      "file_type": "code",
+      "source_file": "server/package.json",
+      "source_location": "L14",
+      "_origin": "ast",
+      "id": "server_package_dependencies_puppeteer",
+      "community": 1,
+      "norm_label": "puppeteer"
+    },
+    {
+      "label": "qrcode",
+      "file_type": "code",
+      "source_file": "server/package.json",
+      "source_location": "L15",
+      "_origin": "ast",
+      "id": "server_package_dependencies_qrcode",
+      "community": 1,
+      "norm_label": "qrcode"
+    },
+    {
+      "label": "adminGuests.js",
+      "file_type": "code",
+      "source_file": "server/routes/adminGuests.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "routes_adminguests",
+      "community": 0,
+      "norm_label": "adminguests.js"
+    },
+    {
+      "label": "router",
+      "file_type": "code",
+      "source_file": "server/routes/adminGuests.js",
+      "source_location": "L4",
+      "_origin": "ast",
+      "id": "routes_adminguests_router",
+      "community": 0,
+      "norm_label": "router"
+    },
+    {
+      "label": "requireAdmin()",
+      "file_type": "code",
+      "source_file": "server/routes/adminGuests.js",
+      "source_location": "L6",
+      "_origin": "ast",
+      "id": "routes_adminguests_requireadmin",
+      "community": 0,
+      "norm_label": "requireadmin()"
     },
     {
       "label": "invite.js",
@@ -123,6 +593,76 @@
       "norm_label": "fetchguestwithvariant()"
     },
     {
+      "label": "seatingDirectory.js",
+      "file_type": "code",
+      "source_file": "server/routes/seatingDirectory.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "routes_seatingdirectory",
+      "community": 0,
+      "norm_label": "seatingdirectory.js"
+    },
+    {
+      "label": "router",
+      "file_type": "code",
+      "source_file": "server/routes/seatingDirectory.js",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "routes_seatingdirectory_router",
+      "community": 0,
+      "norm_label": "router"
+    },
+    {
+      "label": "shuffle()",
+      "file_type": "code",
+      "source_file": "server/routes/seatingDirectory.js",
+      "source_location": "L7",
+      "_origin": "ast",
+      "id": "routes_seatingdirectory_shuffle",
+      "community": 0,
+      "norm_label": "shuffle()"
+    },
+    {
+      "label": "buildShuffledDirectory()",
+      "file_type": "code",
+      "source_file": "server/routes/seatingDirectory.js",
+      "source_location": "L16",
+      "_origin": "ast",
+      "id": "routes_seatingdirectory_buildshuffleddirectory",
+      "community": 0,
+      "norm_label": "buildshuffleddirectory()"
+    },
+    {
+      "label": "escapeHtml()",
+      "file_type": "code",
+      "source_file": "server/routes/seatingDirectory.js",
+      "source_location": "L159",
+      "_origin": "ast",
+      "id": "routes_seatingdirectory_escapehtml",
+      "community": 0,
+      "norm_label": "escapehtml()"
+    },
+    {
+      "label": "supabaseClient.js",
+      "file_type": "code",
+      "source_file": "server/supabaseClient.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "server_supabaseclient",
+      "community": 0,
+      "norm_label": "supabaseclient.js"
+    },
+    {
+      "label": "supabase",
+      "file_type": "code",
+      "source_file": "server/supabaseClient.js",
+      "source_location": "L8",
+      "_origin": "ast",
+      "id": "server_supabaseclient_supabase",
+      "community": 0,
+      "norm_label": "supabase"
+    },
+    {
       "label": "invitationTemplate.js",
       "file_type": "code",
       "source_file": "server/templates/invitationTemplate.js",
@@ -163,554 +703,14 @@
       "norm_label": "escapehtml()"
     },
     {
-      "label": "package.json",
-      "file_type": "code",
-      "source_file": "client/package.json",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 3,
-      "norm_label": "package.json",
-      "id": "client_package"
-    },
-    {
-      "label": "name",
-      "file_type": "code",
-      "source_file": "client/package.json",
-      "source_location": "L2",
-      "_origin": "ast",
-      "community": 3,
-      "norm_label": "name",
-      "id": "client_package_name"
-    },
-    {
-      "label": "private",
-      "file_type": "code",
-      "source_file": "client/package.json",
-      "source_location": "L3",
-      "_origin": "ast",
-      "community": 3,
-      "norm_label": "private",
-      "id": "client_package_private"
-    },
-    {
-      "label": "version",
-      "file_type": "code",
-      "source_file": "client/package.json",
-      "source_location": "L4",
-      "_origin": "ast",
-      "community": 3,
-      "norm_label": "version",
-      "id": "client_package_version"
-    },
-    {
-      "label": "type",
-      "file_type": "code",
-      "source_file": "client/package.json",
-      "source_location": "L5",
-      "_origin": "ast",
-      "community": 3,
-      "norm_label": "type",
-      "id": "client_package_type"
-    },
-    {
-      "label": "scripts",
-      "file_type": "code",
-      "source_file": "client/package.json",
-      "source_location": "L6",
-      "_origin": "ast",
-      "community": 3,
-      "norm_label": "scripts",
-      "id": "client_package_scripts"
-    },
-    {
-      "label": "dev",
-      "file_type": "code",
-      "source_file": "client/package.json",
-      "source_location": "L7",
-      "_origin": "ast",
-      "community": 3,
-      "norm_label": "dev",
-      "id": "client_package_scripts_dev"
-    },
-    {
-      "label": "build",
-      "file_type": "code",
-      "source_file": "client/package.json",
-      "source_location": "L8",
-      "_origin": "ast",
-      "community": 3,
-      "norm_label": "build",
-      "id": "client_package_scripts_build"
-    },
-    {
-      "label": "preview",
-      "file_type": "code",
-      "source_file": "client/package.json",
-      "source_location": "L9",
-      "_origin": "ast",
-      "community": 3,
-      "norm_label": "preview",
-      "id": "client_package_scripts_preview"
-    },
-    {
-      "label": "dependencies",
-      "file_type": "code",
-      "source_file": "client/package.json",
-      "source_location": "L11",
-      "_origin": "ast",
-      "community": 5,
-      "norm_label": "dependencies",
-      "id": "client_package_dependencies"
-    },
-    {
-      "label": "@supabase/supabase-js",
-      "file_type": "code",
-      "source_file": "client/package.json",
-      "source_location": "L12",
-      "_origin": "ast",
-      "community": 5,
-      "norm_label": "@supabase/supabase-js",
-      "id": "client_package_dependencies_supabase_supabase_js"
-    },
-    {
-      "label": "qrcode.react",
-      "file_type": "code",
-      "source_file": "client/package.json",
-      "source_location": "L13",
-      "_origin": "ast",
-      "community": 5,
-      "norm_label": "qrcode.react",
-      "id": "client_package_dependencies_qrcode_react"
-    },
-    {
-      "label": "react",
-      "file_type": "code",
-      "source_file": "client/package.json",
-      "source_location": "L14",
-      "_origin": "ast",
-      "community": 5,
-      "norm_label": "react",
-      "id": "client_package_dependencies_react"
-    },
-    {
-      "label": "react-dom",
-      "file_type": "code",
-      "source_file": "client/package.json",
-      "source_location": "L15",
-      "_origin": "ast",
-      "community": 5,
-      "norm_label": "react-dom",
-      "id": "client_package_dependencies_react_dom"
-    },
-    {
-      "label": "react-router-dom",
-      "file_type": "code",
-      "source_file": "client/package.json",
-      "source_location": "L16",
-      "_origin": "ast",
-      "community": 5,
-      "norm_label": "react-router-dom",
-      "id": "client_package_dependencies_react_router_dom"
-    },
-    {
-      "label": "devDependencies",
-      "file_type": "code",
-      "source_file": "client/package.json",
-      "source_location": "L18",
-      "_origin": "ast",
-      "community": 3,
-      "norm_label": "devdependencies",
-      "id": "client_package_devdependencies"
-    },
-    {
-      "label": "@vitejs/plugin-react",
-      "file_type": "code",
-      "source_file": "client/package.json",
-      "source_location": "L19",
-      "_origin": "ast",
-      "community": 3,
-      "norm_label": "@vitejs/plugin-react",
-      "id": "client_package_devdependencies_vitejs_plugin_react"
-    },
-    {
-      "label": "vite",
-      "file_type": "code",
-      "source_file": "client/package.json",
-      "source_location": "L20",
-      "_origin": "ast",
-      "community": 3,
-      "norm_label": "vite",
-      "id": "client_package_devdependencies_vite"
-    },
-    {
-      "label": "App.jsx",
-      "file_type": "code",
-      "source_file": "client/src/App.jsx",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 2,
-      "norm_label": "app.jsx",
-      "id": "src_app"
-    },
-    {
-      "label": "App()",
-      "file_type": "code",
-      "source_file": "client/src/App.jsx",
-      "source_location": "L7",
-      "_origin": "ast",
-      "community": 2,
-      "norm_label": "app()",
-      "id": "src_app_app"
-    },
-    {
-      "label": "supabaseClient.js",
-      "file_type": "code",
-      "source_file": "client/src/lib/supabaseClient.js",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 2,
-      "norm_label": "supabaseclient.js",
-      "id": "lib_supabaseclient"
-    },
-    {
-      "label": "supabase",
-      "file_type": "code",
-      "source_file": "client/src/lib/supabaseClient.js",
-      "source_location": "L28",
-      "_origin": "ast",
-      "community": 2,
-      "norm_label": "supabase",
-      "id": "lib_supabaseclient_supabase"
-    },
-    {
-      "label": "main.jsx",
-      "file_type": "code",
-      "source_file": "client/src/main.jsx",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 2,
-      "norm_label": "main.jsx",
-      "id": "src_main"
-    },
-    {
-      "label": "AdminLogin.jsx",
-      "file_type": "code",
-      "source_file": "client/src/pages/AdminLogin.jsx",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 2,
-      "norm_label": "adminlogin.jsx",
-      "id": "pages_adminlogin"
-    },
-    {
-      "label": "AdminLogin()",
-      "file_type": "code",
-      "source_file": "client/src/pages/AdminLogin.jsx",
-      "source_location": "L5",
-      "_origin": "ast",
-      "community": 2,
-      "norm_label": "adminlogin()",
-      "id": "pages_adminlogin_adminlogin"
-    },
-    {
-      "label": "SeatingDirectory.jsx",
-      "file_type": "code",
-      "source_file": "client/src/pages/SeatingDirectory.jsx",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 2,
-      "norm_label": "seatingdirectory.jsx",
-      "id": "pages_seatingdirectory"
-    },
-    {
-      "label": "SeatingDirectory()",
-      "file_type": "code",
-      "source_file": "client/src/pages/SeatingDirectory.jsx",
-      "source_location": "L5",
-      "_origin": "ast",
-      "community": 2,
-      "norm_label": "seatingdirectory()",
-      "id": "pages_seatingdirectory_seatingdirectory"
-    },
-    {
-      "label": "vite.config.js",
-      "file_type": "code",
-      "source_file": "client/vite.config.js",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 8,
-      "norm_label": "vite.config.js",
-      "id": "client_vite_config"
-    },
-    {
-      "label": "index.js",
-      "file_type": "code",
-      "source_file": "server/index.js",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 0,
-      "norm_label": "index.js",
-      "id": "server_index"
-    },
-    {
-      "label": "app",
-      "file_type": "code",
-      "source_file": "server/index.js",
-      "source_location": "L10",
-      "_origin": "ast",
-      "community": 0,
-      "norm_label": "app",
-      "id": "server_index_app"
-    },
-    {
-      "label": "package.json",
-      "file_type": "code",
-      "source_file": "server/package.json",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 1,
-      "norm_label": "package.json",
-      "id": "server_package"
-    },
-    {
-      "label": "name",
-      "file_type": "code",
-      "source_file": "server/package.json",
-      "source_location": "L2",
-      "_origin": "ast",
-      "community": 1,
-      "norm_label": "name",
-      "id": "server_package_name"
-    },
-    {
-      "label": "version",
-      "file_type": "code",
-      "source_file": "server/package.json",
-      "source_location": "L3",
-      "_origin": "ast",
-      "community": 1,
-      "norm_label": "version",
-      "id": "server_package_version"
-    },
-    {
-      "label": "type",
-      "file_type": "code",
-      "source_file": "server/package.json",
-      "source_location": "L4",
-      "_origin": "ast",
-      "community": 1,
-      "norm_label": "type",
-      "id": "server_package_type"
-    },
-    {
-      "label": "scripts",
-      "file_type": "code",
-      "source_file": "server/package.json",
-      "source_location": "L5",
-      "_origin": "ast",
-      "community": 1,
-      "norm_label": "scripts",
-      "id": "server_package_scripts"
-    },
-    {
-      "label": "dev",
-      "file_type": "code",
-      "source_file": "server/package.json",
-      "source_location": "L6",
-      "_origin": "ast",
-      "community": 1,
-      "norm_label": "dev",
-      "id": "server_package_scripts_dev"
-    },
-    {
-      "label": "start",
-      "file_type": "code",
-      "source_file": "server/package.json",
-      "source_location": "L7",
-      "_origin": "ast",
-      "community": 1,
-      "norm_label": "start",
-      "id": "server_package_scripts_start"
-    },
-    {
-      "label": "dependencies",
-      "file_type": "code",
-      "source_file": "server/package.json",
-      "source_location": "L9",
-      "_origin": "ast",
-      "community": 1,
-      "norm_label": "dependencies",
-      "id": "server_package_dependencies"
-    },
-    {
-      "label": "@supabase/supabase-js",
-      "file_type": "code",
-      "source_file": "server/package.json",
-      "source_location": "L10",
-      "_origin": "ast",
-      "community": 1,
-      "norm_label": "@supabase/supabase-js",
-      "id": "server_package_dependencies_supabase_supabase_js"
-    },
-    {
-      "label": "cors",
-      "file_type": "code",
-      "source_file": "server/package.json",
-      "source_location": "L11",
-      "_origin": "ast",
-      "community": 1,
-      "norm_label": "cors",
-      "id": "server_package_dependencies_cors"
-    },
-    {
-      "label": "dotenv",
-      "file_type": "code",
-      "source_file": "server/package.json",
-      "source_location": "L12",
-      "_origin": "ast",
-      "community": 1,
-      "norm_label": "dotenv",
-      "id": "server_package_dependencies_dotenv"
-    },
-    {
-      "label": "express",
-      "file_type": "code",
-      "source_file": "server/package.json",
-      "source_location": "L13",
-      "_origin": "ast",
-      "community": 1,
-      "norm_label": "express",
-      "id": "server_package_dependencies_express"
-    },
-    {
-      "label": "puppeteer",
-      "file_type": "code",
-      "source_file": "server/package.json",
-      "source_location": "L14",
-      "_origin": "ast",
-      "community": 1,
-      "norm_label": "puppeteer",
-      "id": "server_package_dependencies_puppeteer"
-    },
-    {
-      "label": "qrcode",
-      "file_type": "code",
-      "source_file": "server/package.json",
-      "source_location": "L15",
-      "_origin": "ast",
-      "community": 1,
-      "norm_label": "qrcode",
-      "id": "server_package_dependencies_qrcode"
-    },
-    {
-      "label": "adminGuests.js",
-      "file_type": "code",
-      "source_file": "server/routes/adminGuests.js",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 0,
-      "norm_label": "adminguests.js",
-      "id": "routes_adminguests"
-    },
-    {
-      "label": "router",
-      "file_type": "code",
-      "source_file": "server/routes/adminGuests.js",
-      "source_location": "L4",
-      "_origin": "ast",
-      "community": 0,
-      "norm_label": "router",
-      "id": "routes_adminguests_router"
-    },
-    {
-      "label": "requireAdmin()",
-      "file_type": "code",
-      "source_file": "server/routes/adminGuests.js",
-      "source_location": "L6",
-      "_origin": "ast",
-      "community": 0,
-      "norm_label": "requireadmin()",
-      "id": "routes_adminguests_requireadmin"
-    },
-    {
-      "label": "seatingDirectory.js",
-      "file_type": "code",
-      "source_file": "server/routes/seatingDirectory.js",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 0,
-      "norm_label": "seatingdirectory.js",
-      "id": "routes_seatingdirectory"
-    },
-    {
-      "label": "router",
-      "file_type": "code",
-      "source_file": "server/routes/seatingDirectory.js",
-      "source_location": "L5",
-      "_origin": "ast",
-      "community": 0,
-      "norm_label": "router",
-      "id": "routes_seatingdirectory_router"
-    },
-    {
-      "label": "shuffle()",
-      "file_type": "code",
-      "source_file": "server/routes/seatingDirectory.js",
-      "source_location": "L7",
-      "_origin": "ast",
-      "community": 0,
-      "norm_label": "shuffle()",
-      "id": "routes_seatingdirectory_shuffle"
-    },
-    {
-      "label": "buildShuffledDirectory()",
-      "file_type": "code",
-      "source_file": "server/routes/seatingDirectory.js",
-      "source_location": "L16",
-      "_origin": "ast",
-      "community": 0,
-      "norm_label": "buildshuffleddirectory()",
-      "id": "routes_seatingdirectory_buildshuffleddirectory"
-    },
-    {
-      "label": "escapeHtml()",
-      "file_type": "code",
-      "source_file": "server/routes/seatingDirectory.js",
-      "source_location": "L159",
-      "_origin": "ast",
-      "community": 0,
-      "norm_label": "escapehtml()",
-      "id": "routes_seatingdirectory_escapehtml"
-    },
-    {
-      "label": "supabaseClient.js",
-      "file_type": "code",
-      "source_file": "server/supabaseClient.js",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 0,
-      "norm_label": "supabaseclient.js",
-      "id": "server_supabaseclient"
-    },
-    {
-      "label": "supabase",
-      "file_type": "code",
-      "source_file": "server/supabaseClient.js",
-      "source_location": "L8",
-      "_origin": "ast",
-      "community": 0,
-      "norm_label": "supabase",
-      "id": "server_supabaseclient_supabase"
-    },
-    {
       "label": "graphify.md",
       "file_type": "document",
       "source_file": ".agents/rules/graphify.md",
       "source_location": "L1",
       "_origin": "ast",
+      "id": "rules_graphify",
       "community": 11,
-      "norm_label": "graphify.md",
-      "id": "rules_graphify"
+      "norm_label": "graphify.md"
     },
     {
       "label": "graphify",
@@ -718,9 +718,9 @@
       "source_file": ".agents/rules/graphify.md",
       "source_location": "L6",
       "_origin": "ast",
+      "id": "rules_graphify_graphify",
       "community": 11,
-      "norm_label": "graphify",
-      "id": "rules_graphify_graphify"
+      "norm_label": "graphify"
     },
     {
       "label": "graphify.md",
@@ -728,9 +728,9 @@
       "source_file": ".agents/workflows/graphify.md",
       "source_location": "L1",
       "_origin": "ast",
+      "id": "workflows_graphify",
       "community": 12,
-      "norm_label": "graphify.md",
-      "id": "workflows_graphify"
+      "norm_label": "graphify.md"
     },
     {
       "label": "Workflow: graphify",
@@ -738,9 +738,9 @@
       "source_file": ".agents/workflows/graphify.md",
       "source_location": "L6",
       "_origin": "ast",
+      "id": "workflows_graphify_workflow_graphify",
       "community": 12,
-      "norm_label": "workflow: graphify",
-      "id": "workflows_graphify_workflow_graphify"
+      "norm_label": "workflow: graphify"
     },
     {
       "label": "README.md",
@@ -748,9 +748,9 @@
       "source_file": "README.md",
       "source_location": "L1",
       "_origin": "ast",
+      "id": "readme",
       "community": 4,
-      "norm_label": "readme.md",
-      "id": "readme"
+      "norm_label": "readme.md"
     },
     {
       "label": "Enoch's Dedication \u2014 Guest Invitation System",
@@ -758,9 +758,9 @@
       "source_file": "README.md",
       "source_location": "L1",
       "_origin": "ast",
+      "id": "readme_enoch_s_dedication_guest_invitation_system",
       "community": 4,
-      "norm_label": "enoch's dedication \u2014 guest invitation system",
-      "id": "readme_enoch_s_dedication_guest_invitation_system"
+      "norm_label": "enoch's dedication \u2014 guest invitation system"
     },
     {
       "label": "What's included",
@@ -768,9 +768,9 @@
       "source_file": "README.md",
       "source_location": "L10",
       "_origin": "ast",
+      "id": "readme_what_s_included",
       "community": 4,
-      "norm_label": "what's included",
-      "id": "readme_what_s_included"
+      "norm_label": "what's included"
     },
     {
       "label": "Project structure",
@@ -778,9 +778,9 @@
       "source_file": "README.md",
       "source_location": "L27",
       "_origin": "ast",
+      "id": "readme_project_structure",
       "community": 4,
-      "norm_label": "project structure",
-      "id": "readme_project_structure"
+      "norm_label": "project structure"
     },
     {
       "label": "Setup \u2014 step by step",
@@ -788,9 +788,9 @@
       "source_file": "README.md",
       "source_location": "L47",
       "_origin": "ast",
+      "id": "readme_setup_step_by_step",
       "community": 10,
-      "norm_label": "setup \u2014 step by step",
-      "id": "readme_setup_step_by_step"
+      "norm_label": "setup \u2014 step by step"
     },
     {
       "label": "1. Create a Supabase project",
@@ -798,9 +798,9 @@
       "source_file": "README.md",
       "source_location": "L49",
       "_origin": "ast",
+      "id": "readme_1_create_a_supabase_project",
       "community": 10,
-      "norm_label": "1. create a supabase project",
-      "id": "readme_1_create_a_supabase_project"
+      "norm_label": "1. create a supabase project"
     },
     {
       "label": "2. Run the database schema",
@@ -808,9 +808,9 @@
       "source_file": "README.md",
       "source_location": "L55",
       "_origin": "ast",
+      "id": "readme_2_run_the_database_schema",
       "community": 10,
-      "norm_label": "2. run the database schema",
-      "id": "readme_2_run_the_database_schema"
+      "norm_label": "2. run the database schema"
     },
     {
       "label": "3. Create your admin login",
@@ -818,9 +818,9 @@
       "source_file": "README.md",
       "source_location": "L59",
       "_origin": "ast",
+      "id": "readme_3_create_your_admin_login",
       "community": 10,
-      "norm_label": "3. create your admin login",
-      "id": "readme_3_create_your_admin_login"
+      "norm_label": "3. create your admin login"
     },
     {
       "label": "4. Configure the server",
@@ -828,9 +828,9 @@
       "source_file": "README.md",
       "source_location": "L63",
       "_origin": "ast",
+      "id": "readme_4_configure_the_server",
       "community": 10,
-      "norm_label": "4. configure the server",
-      "id": "readme_4_configure_the_server"
+      "norm_label": "4. configure the server"
     },
     {
       "label": "5. Configure the client",
@@ -838,9 +838,9 @@
       "source_file": "README.md",
       "source_location": "L73",
       "_origin": "ast",
+      "id": "readme_5_configure_the_client",
       "community": 10,
-      "norm_label": "5. configure the client",
-      "id": "readme_5_configure_the_client"
+      "norm_label": "5. configure the client"
     },
     {
       "label": "6. Try it out",
@@ -848,9 +848,9 @@
       "source_file": "README.md",
       "source_location": "L83",
       "_origin": "ast",
+      "id": "readme_6_try_it_out",
       "community": 10,
-      "norm_label": "6. try it out",
-      "id": "readme_6_try_it_out"
+      "norm_label": "6. try it out"
     },
     {
       "label": "How to reassign a table",
@@ -858,9 +858,9 @@
       "source_file": "README.md",
       "source_location": "L93",
       "_origin": "ast",
+      "id": "readme_how_to_reassign_a_table",
       "community": 4,
-      "norm_label": "how to reassign a table",
-      "id": "readme_how_to_reassign_a_table"
+      "norm_label": "how to reassign a table"
     },
     {
       "label": "Sharing invitations with guests",
@@ -868,9 +868,9 @@
       "source_file": "README.md",
       "source_location": "L103",
       "_origin": "ast",
+      "id": "readme_sharing_invitations_with_guests",
       "community": 4,
-      "norm_label": "sharing invitations with guests",
-      "id": "readme_sharing_invitations_with_guests"
+      "norm_label": "sharing invitations with guests"
     },
     {
       "label": "Deployment notes",
@@ -878,9 +878,9 @@
       "source_file": "README.md",
       "source_location": "L116",
       "_origin": "ast",
+      "id": "readme_deployment_notes",
       "community": 4,
-      "norm_label": "deployment notes",
-      "id": "readme_deployment_notes"
+      "norm_label": "deployment notes"
     },
     {
       "label": "Design variants reference",
@@ -888,9 +888,9 @@
       "source_file": "README.md",
       "source_location": "L128",
       "_origin": "ast",
+      "id": "readme_design_variants_reference",
       "community": 4,
-      "norm_label": "design variants reference",
-      "id": "readme_design_variants_reference"
+      "norm_label": "design variants reference"
     },
     {
       "label": "Guest-facing page (/invite/:slug)",
@@ -1011,250 +1011,6 @@
     }
   ],
   "links": [
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "client/src/pages/AdminGuests.jsx",
-      "source_location": "L3",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "pages_adminguests",
-      "target": "lib_supabaseclient"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "client/src/pages/AdminGuests.jsx",
-      "source_location": "L3",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "pages_adminguests",
-      "target": "lib_supabaseclient_supabase"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "client/src/pages/AdminGuests.jsx",
-      "source_location": "L5",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "pages_adminguests",
-      "target": "pages_adminguests_adminguests"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "client/src/App.jsx",
-      "source_location": "L4",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app",
-      "target": "pages_adminguests"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "client/src/App.jsx",
-      "source_location": "L4",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app",
-      "target": "pages_adminguests_adminguests"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "client/src/pages/InvitePage.jsx",
-      "source_location": "L4",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "pages_invitepage",
-      "target": "lib_supabaseclient"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "client/src/pages/InvitePage.jsx",
-      "source_location": "L20",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "pages_invitepage",
-      "target": "pages_invitepage_center_ornaments"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "client/src/pages/InvitePage.jsx",
-      "source_location": "L6",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "pages_invitepage",
-      "target": "pages_invitepage_invitepage"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "client/src/App.jsx",
-      "source_location": "L2",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app",
-      "target": "pages_invitepage"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "client/src/App.jsx",
-      "source_location": "L2",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app",
-      "target": "pages_invitepage_invitepage"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "server/routes/invite.js",
-      "source_location": "L22",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "routes_invite",
-      "target": "routes_invite_fetchguestwithvariant"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "server/routes/invite.js",
-      "source_location": "L12",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "routes_invite",
-      "target": "routes_invite_getbrowser"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "server/routes/invite.js",
-      "source_location": "L7",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "routes_invite",
-      "target": "routes_invite_router"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "server/routes/invite.js",
-      "source_location": "L4",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "routes_invite",
-      "target": "server_supabaseclient"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "server/routes/invite.js",
-      "source_location": "L4",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "routes_invite",
-      "target": "server_supabaseclient_supabase"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "server/routes/invite.js",
-      "source_location": "L5",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "routes_invite",
-      "target": "templates_invitationtemplate"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "server/routes/invite.js",
-      "source_location": "L5",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "routes_invite",
-      "target": "templates_invitationtemplate_renderinvitationhtml"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "server/index.js",
-      "source_location": "L4",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "server_index",
-      "target": "routes_invite"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "server/index.js",
-      "source_location": "L4",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "server_index",
-      "target": "routes_invite_router"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "server/templates/invitationTemplate.js",
-      "source_location": "L19",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "templates_invitationtemplate",
-      "target": "templates_invitationtemplate_center_ornaments"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "server/templates/invitationTemplate.js",
-      "source_location": "L200",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "templates_invitationtemplate",
-      "target": "templates_invitationtemplate_escapehtml"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "server/templates/invitationTemplate.js",
-      "source_location": "L12",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "templates_invitationtemplate",
-      "target": "templates_invitationtemplate_renderinvitationhtml"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "server/templates/invitationTemplate.js",
-      "source_location": "L177",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "templates_invitationtemplate_renderinvitationhtml",
-      "target": "templates_invitationtemplate_escapehtml"
-    },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
@@ -1430,6 +1186,28 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "client/src/App.jsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app",
+      "target": "pages_adminguests"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/App.jsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app",
+      "target": "pages_adminguests_adminguests"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/App.jsx",
       "source_location": "L3",
       "weight": 1.0,
       "confidence_score": 1.0,
@@ -1446,6 +1224,28 @@
       "confidence_score": 1.0,
       "source": "src_app",
       "target": "pages_adminlogin_adminlogin"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/App.jsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app",
+      "target": "pages_invitepage"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/App.jsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app",
+      "target": "pages_invitepage_invitepage"
     },
     {
       "relation": "imports_from",
@@ -1515,11 +1315,33 @@
       "relation": "imports_from",
       "context": "import",
       "confidence": "EXTRACTED",
+      "source_file": "client/src/pages/AdminGuests.jsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pages_adminguests",
+      "target": "lib_supabaseclient"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
       "source_file": "client/src/pages/AdminLogin.jsx",
       "source_location": "L3",
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "pages_adminlogin",
+      "target": "lib_supabaseclient"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/pages/InvitePage.jsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pages_invitepage",
       "target": "lib_supabaseclient"
     },
     {
@@ -1532,6 +1354,17 @@
       "confidence_score": 1.0,
       "source": "pages_seatingdirectory",
       "target": "lib_supabaseclient"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/pages/AdminGuests.jsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pages_adminguests",
+      "target": "lib_supabaseclient_supabase"
     },
     {
       "relation": "imports",
@@ -1558,12 +1391,42 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "client/src/pages/AdminGuests.jsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pages_adminguests",
+      "target": "pages_adminguests_adminguests"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "client/src/pages/AdminLogin.jsx",
       "source_location": "L5",
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "pages_adminlogin",
       "target": "pages_adminlogin_adminlogin"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/pages/InvitePage.jsx",
+      "source_location": "L20",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pages_invitepage",
+      "target": "pages_invitepage_center_ornaments"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/pages/InvitePage.jsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pages_invitepage",
+      "target": "pages_invitepage_invitepage"
     },
     {
       "relation": "contains",
@@ -1596,6 +1459,28 @@
       "confidence_score": 1.0,
       "source": "server_index",
       "target": "routes_adminguests_router"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "server/index.js",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "server_index",
+      "target": "routes_invite"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "server/index.js",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "server_index",
+      "target": "routes_invite_router"
     },
     {
       "relation": "imports_from",
@@ -1804,6 +1689,80 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "server/routes/invite.js",
+      "source_location": "L22",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "routes_invite",
+      "target": "routes_invite_fetchguestwithvariant"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "server/routes/invite.js",
+      "source_location": "L12",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "routes_invite",
+      "target": "routes_invite_getbrowser"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "server/routes/invite.js",
+      "source_location": "L7",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "routes_invite",
+      "target": "routes_invite_router"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "server/routes/invite.js",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "routes_invite",
+      "target": "server_supabaseclient"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "server/routes/invite.js",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "routes_invite",
+      "target": "server_supabaseclient_supabase"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "server/routes/invite.js",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "routes_invite",
+      "target": "templates_invitationtemplate"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "server/routes/invite.js",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "routes_invite",
+      "target": "templates_invitationtemplate_renderinvitationhtml"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "server/routes/seatingDirectory.js",
       "source_location": "L16",
       "weight": 1.0,
@@ -1883,6 +1842,47 @@
       "confidence_score": 1.0,
       "source": "server_supabaseclient",
       "target": "server_supabaseclient_supabase"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "server/templates/invitationTemplate.js",
+      "source_location": "L19",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "templates_invitationtemplate",
+      "target": "templates_invitationtemplate_center_ornaments"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "server/templates/invitationTemplate.js",
+      "source_location": "L200",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "templates_invitationtemplate",
+      "target": "templates_invitationtemplate_escapehtml"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "server/templates/invitationTemplate.js",
+      "source_location": "L12",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "templates_invitationtemplate",
+      "target": "templates_invitationtemplate_renderinvitationhtml"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "server/templates/invitationTemplate.js",
+      "source_location": "L177",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "templates_invitationtemplate_renderinvitationhtml",
+      "target": "templates_invitationtemplate_escapehtml"
     },
     {
       "relation": "contains",

@@ -5,9 +5,9 @@
     "semantic_hash": "305ab6032487d97275d482e9bc45f6e9"
   },
   "client/src/App.jsx": {
-    "mtime": 1783134155.3943396,
-    "ast_hash": "63e9c0a53165a816a2c49ee9e8bf1983",
-    "semantic_hash": "63e9c0a53165a816a2c49ee9e8bf1983"
+    "mtime": 1783160597.831111,
+    "ast_hash": "45a8cbd9c13d856f5419fe464596dc24",
+    "semantic_hash": ""
   },
   "client/src/lib/supabaseClient.js": {
     "mtime": 1783134155.3944833,
@@ -20,24 +20,24 @@
     "semantic_hash": "ec471e0da66adabd8f03e362ae39e837"
   },
   "client/src/pages/AdminGuests.jsx": {
-    "mtime": 1783159866.4685764,
-    "ast_hash": "073c6d905d6397a0e7645c8da8983a20",
+    "mtime": 1783160762.17612,
+    "ast_hash": "03d1dcee49336e7452774e97dde7bce6",
     "semantic_hash": ""
   },
   "client/src/pages/AdminLogin.jsx": {
-    "mtime": 1783134155.3946424,
-    "ast_hash": "a04dc25ccecb70924f87c133c066b266",
-    "semantic_hash": "a04dc25ccecb70924f87c133c066b266"
+    "mtime": 1783160735.233813,
+    "ast_hash": "c4f4be0f2c81a908486876241c9628dd",
+    "semantic_hash": ""
   },
   "client/src/pages/InvitePage.jsx": {
-    "mtime": 1783159788.0613835,
-    "ast_hash": "983f4195c09717c982dd40da6b383bf0",
+    "mtime": 1783160782.610386,
+    "ast_hash": "3d8444e70f0a9be68a3bb387613dd251",
     "semantic_hash": ""
   },
   "client/src/pages/SeatingDirectory.jsx": {
-    "mtime": 1783134155.3947399,
-    "ast_hash": "5e93c4cc8c29c2dec82c39bc3624f007",
-    "semantic_hash": "5e93c4cc8c29c2dec82c39bc3624f007"
+    "mtime": 1783160709.044564,
+    "ast_hash": "3c239ed67912712950ede6750dbf7ecf",
+    "semantic_hash": ""
   },
   "client/vite.config.js": {
     "mtime": 1783134155.3941827,
@@ -70,9 +70,9 @@
     "semantic_hash": ""
   },
   "server/routes/seatingDirectory.js": {
-    "mtime": 1783134078.8013296,
-    "ast_hash": "527b8753c4428a6660a6b71c6ad7ccd9",
-    "semantic_hash": "527b8753c4428a6660a6b71c6ad7ccd9"
+    "mtime": 1783160695.0184515,
+    "ast_hash": "906cebe4da0cec3ac2bab57ea718cf9a",
+    "semantic_hash": ""
   },
   "server/supabaseClient.js": {
     "mtime": 1783134078.8009095,

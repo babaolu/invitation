@@ -1,7 +1,7 @@
 # Graph Report - enoch-invites_2  (2026-07-04)
 
 ## Corpus Check
-- 22 files · ~9,554 words
+- 22 files · ~10,518 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
@@ -35,11 +35,11 @@
 3. `scripts` - 4 edges
 4. `supabase` - 4 edges
 5. `supabase` - 4 edges
-6. `renderInvitationHTML()` - 3 edges
-7. `scripts` - 3 edges
-8. `AdminGuests()` - 2 edges
-9. `InvitePage()` - 2 edges
-10. `router` - 2 edges
+6. `scripts` - 3 edges
+7. `renderInvitationHTML()` - 3 edges
+8. `App()` - 2 edges
+9. `AdminGuests()` - 2 edges
+10. `AdminLogin()` - 2 edges
 
 ## Surprising Connections (you probably didn't know these)
 - `Enoch's Dedication — Guest Invitation System` --references--> `server/index.js`  [EXTRACTED]
@@ -93,7 +93,7 @@ Cohesion: 0.29
 Nodes (7): 1. Create a Supabase project, 2. Run the database schema, 3. Create your admin login, 4. Configure the server, 5. Configure the client, 6. Try it out, Setup — step by step
 
 ## Knowledge Gaps
-- **50 isolated node(s):** `CENTER_ORNAMENTS`, `CENTER_ORNAMENTS`, `name`, `private`, `version` (+45 more)
+- **50 isolated node(s):** `name`, `private`, `version`, `type`, `dev` (+45 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **5 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
@@ -106,7 +106,7 @@ _Questions this graph is uniquely positioned to answer:_
   _High betweenness centrality (0.021) - this node is a cross-community bridge._
 - **Why does `dependencies` connect `Community 5` to `Client Build Tooling`?**
   _High betweenness centrality (0.016) - this node is a cross-community bridge._
-- **What connects `CENTER_ORNAMENTS`, `CENTER_ORNAMENTS`, `name` to the rest of the system?**
+- **What connects `name`, `private`, `version` to the rest of the system?**
   _50 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Server Package Config` be split into smaller, more focused modules?**
   _Cohesion score 0.14285714285714285 - nodes in this community are weakly interconnected._

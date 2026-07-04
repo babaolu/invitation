@@ -1,16 +1,16 @@
 # Graph Report - enoch-invites_2  (2026-07-04)
 
 ## Corpus Check
-- 24 files · ~11,326 words
+- 24 files · ~11,439 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 103 nodes · 112 edges · 14 communities (8 shown, 6 thin omitted)
+- 104 nodes · 113 edges · 14 communities (8 shown, 6 thin omitted)
 - Extraction: 98% EXTRACTED · 2% INFERRED · 0% AMBIGUOUS · INFERRED: 2 edges (avg confidence: 0.85)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `8e43eae3`
+- Built from commit: `6b6b5e16`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -61,7 +61,7 @@
 ## Communities (14 total, 6 thin omitted)
 
 ### Community 0 - "Backend Routing"
-Cohesion: 0.15
+Cohesion: 0.14
 Nodes (10): router, router, buildShuffledDirectory(), router, shuffle(), app, supabase, CENTER_ORNAMENTS (+2 more)
 
 ### Community 1 - "Server Package Config"
@@ -97,13 +97,13 @@ Nodes (3): 1. What is DONE, 2. Technical Palette & Variants, AGENT HANDOFF — E
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `Enoch's Dedication — Guest Invitation System` connect `Core Project Configuration` to `Community 10`?**
-  _High betweenness centrality (0.029) - this node is a cross-community bridge._
+  _High betweenness centrality (0.028) - this node is a cross-community bridge._
 - **Why does `Setup — step by step` connect `Community 10` to `Core Project Configuration`?**
   _High betweenness centrality (0.018) - this node is a cross-community bridge._
 - **What connects `name`, `private`, `version` to the rest of the system?**
   _54 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Backend Routing` be split into smaller, more focused modules?**
-  _Cohesion score 0.14761904761904762 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.13852813852813853 - nodes in this community are weakly interconnected._
 - **Should `Server Package Config` be split into smaller, more focused modules?**
   _Cohesion score 0.14285714285714285 - nodes in this community are weakly interconnected._
 - **Should `Client Build Tooling` be split into smaller, more focused modules?**

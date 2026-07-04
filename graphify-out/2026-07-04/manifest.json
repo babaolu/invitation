@@ -118,5 +118,10 @@
     "mtime": 1783162921.750639,
     "ast_hash": "9c9f9a0da9e2ae51bb694b21c617f3b2",
     "semantic_hash": ""
+  },
+  "client/vercel.json": {
+    "mtime": 1783169088.3843246,
+    "ast_hash": "d93bf1698ebc5626df4b5a732089d7b3",
+    "semantic_hash": ""
   }
 }

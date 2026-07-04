@@ -70,8 +70,8 @@
     "semantic_hash": ""
   },
   "server/routes/seatingDirectory.js": {
-    "mtime": 1783160695.0184515,
-    "ast_hash": "906cebe4da0cec3ac2bab57ea718cf9a",
+    "mtime": 1783170799.115661,
+    "ast_hash": "8ca22b52b505d4ed9e5503118d9a9471",
     "semantic_hash": ""
   },
   "server/supabaseClient.js": {

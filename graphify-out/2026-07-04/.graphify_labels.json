@@ -1,1 +1,15 @@
-{"0": "Backend Routing", "1": "Server Package Config", "2": "Frontend Pages & Client", "3": "Client Build Tooling", "4": "Core Project Configuration", "5": "Client App Dependencies", "6": "PDF Template Rendering", "7": "PDF Generation Docs", "8": "Client Vite Configuration", "9": "Seating Directory Docs"}
+{
+  "0": "Backend Routing",
+  "1": "Server Package Config",
+  "2": "Frontend Pages & Client",
+  "3": "Client Build Tooling",
+  "4": "Core Project Configuration",
+  "5": "Client App Dependencies",
+  "6": "PDF Template Rendering",
+  "7": "PDF Generation Docs",
+  "8": "Client Vite Configuration",
+  "9": "Seating Directory Docs",
+  "10": "Community 10",
+  "11": "Community 11",
+  "12": "Community 12"
+}

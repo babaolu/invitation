@@ -576,7 +576,7 @@
       "label": "fetchGuestWithVariant()",
       "file_type": "code",
       "source_file": "server/routes/invite.js",
-      "source_location": "L22",
+      "source_location": "L28",
       "_origin": "ast",
       "id": "routes_invite_fetchguestwithvariant",
       "community": 0,
@@ -693,17 +693,194 @@
       "norm_label": "escapehtml()"
     },
     {
+      "label": "graphify.md",
+      "file_type": "document",
+      "source_file": ".agents/rules/graphify.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "rules_graphify",
+      "community": 11,
+      "norm_label": "graphify.md"
+    },
+    {
+      "label": "graphify",
+      "file_type": "document",
+      "source_file": ".agents/rules/graphify.md",
+      "source_location": "L6",
+      "_origin": "ast",
+      "id": "rules_graphify_graphify",
+      "community": 11,
+      "norm_label": "graphify"
+    },
+    {
+      "label": "graphify.md",
+      "file_type": "document",
+      "source_file": ".agents/workflows/graphify.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "workflows_graphify",
+      "community": 12,
+      "norm_label": "graphify.md"
+    },
+    {
+      "label": "Workflow: graphify",
+      "file_type": "document",
+      "source_file": ".agents/workflows/graphify.md",
+      "source_location": "L6",
+      "_origin": "ast",
+      "id": "workflows_graphify_workflow_graphify",
+      "community": 12,
+      "norm_label": "workflow: graphify"
+    },
+    {
+      "label": "README.md",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "readme",
+      "community": 4,
+      "norm_label": "readme.md"
+    },
+    {
       "label": "Enoch's Dedication \u2014 Guest Invitation System",
       "file_type": "document",
       "source_file": "README.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "readme_enoch_invites",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "readme_enoch_s_dedication_guest_invitation_system",
       "community": 4,
       "norm_label": "enoch's dedication \u2014 guest invitation system"
+    },
+    {
+      "label": "What's included",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L10",
+      "_origin": "ast",
+      "id": "readme_what_s_included",
+      "community": 4,
+      "norm_label": "what's included"
+    },
+    {
+      "label": "Project structure",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L27",
+      "_origin": "ast",
+      "id": "readme_project_structure",
+      "community": 4,
+      "norm_label": "project structure"
+    },
+    {
+      "label": "Setup \u2014 step by step",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L47",
+      "_origin": "ast",
+      "id": "readme_setup_step_by_step",
+      "community": 10,
+      "norm_label": "setup \u2014 step by step"
+    },
+    {
+      "label": "1. Create a Supabase project",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L49",
+      "_origin": "ast",
+      "id": "readme_1_create_a_supabase_project",
+      "community": 10,
+      "norm_label": "1. create a supabase project"
+    },
+    {
+      "label": "2. Run the database schema",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L55",
+      "_origin": "ast",
+      "id": "readme_2_run_the_database_schema",
+      "community": 10,
+      "norm_label": "2. run the database schema"
+    },
+    {
+      "label": "3. Create your admin login",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L59",
+      "_origin": "ast",
+      "id": "readme_3_create_your_admin_login",
+      "community": 10,
+      "norm_label": "3. create your admin login"
+    },
+    {
+      "label": "4. Configure the server",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L63",
+      "_origin": "ast",
+      "id": "readme_4_configure_the_server",
+      "community": 10,
+      "norm_label": "4. configure the server"
+    },
+    {
+      "label": "5. Configure the client",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L73",
+      "_origin": "ast",
+      "id": "readme_5_configure_the_client",
+      "community": 10,
+      "norm_label": "5. configure the client"
+    },
+    {
+      "label": "6. Try it out",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L83",
+      "_origin": "ast",
+      "id": "readme_6_try_it_out",
+      "community": 10,
+      "norm_label": "6. try it out"
+    },
+    {
+      "label": "How to reassign a table",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L93",
+      "_origin": "ast",
+      "id": "readme_how_to_reassign_a_table",
+      "community": 4,
+      "norm_label": "how to reassign a table"
+    },
+    {
+      "label": "Sharing invitations with guests",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L103",
+      "_origin": "ast",
+      "id": "readme_sharing_invitations_with_guests",
+      "community": 4,
+      "norm_label": "sharing invitations with guests"
+    },
+    {
+      "label": "Deployment notes",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L116",
+      "_origin": "ast",
+      "id": "readme_deployment_notes",
+      "community": 4,
+      "norm_label": "deployment notes"
+    },
+    {
+      "label": "Design variants reference",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L128",
+      "_origin": "ast",
+      "id": "readme_design_variants_reference",
+      "community": 4,
+      "norm_label": "design variants reference"
     },
     {
       "label": "Guest-facing page (/invite/:slug)",
@@ -714,9 +891,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "readme_guest_facing_page",
       "community": 7,
-      "norm_label": "guest-facing page (/invite/:slug)"
+      "norm_label": "guest-facing page (/invite/:slug)",
+      "id": "readme_guest_facing_page"
     },
     {
       "label": "Live PDF generation",
@@ -727,9 +904,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "readme_live_pdf_generation",
       "community": 7,
-      "norm_label": "live pdf generation"
+      "norm_label": "live pdf generation",
+      "id": "readme_live_pdf_generation"
     },
     {
       "label": "Admin dashboard (/admin)",
@@ -740,9 +917,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "readme_admin_dashboard",
       "community": 4,
-      "norm_label": "admin dashboard (/admin)"
+      "norm_label": "admin dashboard (/admin)",
+      "id": "readme_admin_dashboard"
     },
     {
       "label": "Seating Directory (/admin/seating-directory)",
@@ -753,9 +930,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "readme_seating_directory",
       "community": 9,
-      "norm_label": "seating directory (/admin/seating-directory)"
+      "norm_label": "seating directory (/admin/seating-directory)",
+      "id": "readme_seating_directory"
     },
     {
       "label": "supabase/schema.sql",
@@ -766,9 +943,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "supabase_schema_sql",
       "community": 4,
-      "norm_label": "supabase/schema.sql"
+      "norm_label": "supabase/schema.sql",
+      "id": "supabase_schema_sql"
     },
     {
       "label": "supabase/seed.sql",
@@ -779,9 +956,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "supabase_seed_sql",
       "community": 4,
-      "norm_label": "supabase/seed.sql"
+      "norm_label": "supabase/seed.sql",
+      "id": "supabase_seed_sql"
     },
     {
       "label": "server/index.js",
@@ -792,9 +969,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "server_index_js",
       "community": 4,
-      "norm_label": "server/index.js"
+      "norm_label": "server/index.js",
+      "id": "server_index_js"
     },
     {
       "label": "client/index.html",
@@ -805,9 +982,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "client_index_html",
       "community": 4,
-      "norm_label": "client/index.html"
+      "norm_label": "client/index.html",
+      "id": "client_index_html"
     },
     {
       "label": "client/src/main.jsx",
@@ -818,9 +995,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "client_main_jsx",
       "community": 4,
-      "norm_label": "client/src/main.jsx"
+      "norm_label": "client/src/main.jsx",
+      "id": "client_main_jsx"
     },
     {
       "label": "Design Variants",
@@ -831,9 +1008,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "design_variants",
       "community": 4,
-      "norm_label": "design variants"
+      "norm_label": "design variants",
+      "id": "design_variants"
     }
   ],
   "links": [
@@ -843,9 +1020,9 @@
       "source_file": "client/package.json",
       "source_location": "L11",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "client_package",
-      "target": "client_package_dependencies",
-      "confidence_score": 1.0
+      "target": "client_package_dependencies"
     },
     {
       "relation": "contains",
@@ -853,9 +1030,9 @@
       "source_file": "client/package.json",
       "source_location": "L18",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "client_package",
-      "target": "client_package_devdependencies",
-      "confidence_score": 1.0
+      "target": "client_package_devdependencies"
     },
     {
       "relation": "contains",
@@ -863,9 +1040,9 @@
       "source_file": "client/package.json",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "client_package",
-      "target": "client_package_name",
-      "confidence_score": 1.0
+      "target": "client_package_name"
     },
     {
       "relation": "contains",
@@ -873,9 +1050,9 @@
       "source_file": "client/package.json",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "client_package",
-      "target": "client_package_private",
-      "confidence_score": 1.0
+      "target": "client_package_private"
     },
     {
       "relation": "contains",
@@ -883,9 +1060,9 @@
       "source_file": "client/package.json",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "client_package",
-      "target": "client_package_scripts",
-      "confidence_score": 1.0
+      "target": "client_package_scripts"
     },
     {
       "relation": "contains",
@@ -893,9 +1070,9 @@
       "source_file": "client/package.json",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "client_package",
-      "target": "client_package_type",
-      "confidence_score": 1.0
+      "target": "client_package_type"
     },
     {
       "relation": "contains",
@@ -903,9 +1080,9 @@
       "source_file": "client/package.json",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "client_package",
-      "target": "client_package_version",
-      "confidence_score": 1.0
+      "target": "client_package_version"
     },
     {
       "relation": "contains",
@@ -913,9 +1090,9 @@
       "source_file": "client/package.json",
       "source_location": "L8",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "client_package_scripts",
-      "target": "client_package_scripts_build",
-      "confidence_score": 1.0
+      "target": "client_package_scripts_build"
     },
     {
       "relation": "contains",
@@ -923,9 +1100,9 @@
       "source_file": "client/package.json",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "client_package_scripts",
-      "target": "client_package_scripts_dev",
-      "confidence_score": 1.0
+      "target": "client_package_scripts_dev"
     },
     {
       "relation": "contains",
@@ -933,9 +1110,9 @@
       "source_file": "client/package.json",
       "source_location": "L9",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "client_package_scripts",
-      "target": "client_package_scripts_preview",
-      "confidence_score": 1.0
+      "target": "client_package_scripts_preview"
     },
     {
       "relation": "contains",
@@ -943,9 +1120,9 @@
       "source_file": "client/package.json",
       "source_location": "L13",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "client_package_dependencies",
-      "target": "client_package_dependencies_qrcode_react",
-      "confidence_score": 1.0
+      "target": "client_package_dependencies_qrcode_react"
     },
     {
       "relation": "contains",
@@ -953,9 +1130,9 @@
       "source_file": "client/package.json",
       "source_location": "L14",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "client_package_dependencies",
-      "target": "client_package_dependencies_react",
-      "confidence_score": 1.0
+      "target": "client_package_dependencies_react"
     },
     {
       "relation": "contains",
@@ -963,9 +1140,9 @@
       "source_file": "client/package.json",
       "source_location": "L15",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "client_package_dependencies",
-      "target": "client_package_dependencies_react_dom",
-      "confidence_score": 1.0
+      "target": "client_package_dependencies_react_dom"
     },
     {
       "relation": "contains",
@@ -973,9 +1150,9 @@
       "source_file": "client/package.json",
       "source_location": "L16",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "client_package_dependencies",
-      "target": "client_package_dependencies_react_router_dom",
-      "confidence_score": 1.0
+      "target": "client_package_dependencies_react_router_dom"
     },
     {
       "relation": "contains",
@@ -983,9 +1160,9 @@
       "source_file": "client/package.json",
       "source_location": "L12",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "client_package_dependencies",
-      "target": "client_package_dependencies_supabase_supabase_js",
-      "confidence_score": 1.0
+      "target": "client_package_dependencies_supabase_supabase_js"
     },
     {
       "relation": "contains",
@@ -993,9 +1170,9 @@
       "source_file": "client/package.json",
       "source_location": "L20",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "client_package_devdependencies",
-      "target": "client_package_devdependencies_vite",
-      "confidence_score": 1.0
+      "target": "client_package_devdependencies_vite"
     },
     {
       "relation": "contains",
@@ -1003,9 +1180,9 @@
       "source_file": "client/package.json",
       "source_location": "L19",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "client_package_devdependencies",
-      "target": "client_package_devdependencies_vitejs_plugin_react",
-      "confidence_score": 1.0
+      "target": "client_package_devdependencies_vitejs_plugin_react"
     },
     {
       "relation": "imports_from",
@@ -1014,9 +1191,9 @@
       "source_file": "client/src/App.jsx",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_app",
-      "target": "pages_adminguests",
-      "confidence_score": 1.0
+      "target": "pages_adminguests"
     },
     {
       "relation": "imports",
@@ -1025,9 +1202,9 @@
       "source_file": "client/src/App.jsx",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_app",
-      "target": "pages_adminguests_adminguests",
-      "confidence_score": 1.0
+      "target": "pages_adminguests_adminguests"
     },
     {
       "relation": "imports_from",
@@ -1036,9 +1213,9 @@
       "source_file": "client/src/App.jsx",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_app",
-      "target": "pages_adminlogin",
-      "confidence_score": 1.0
+      "target": "pages_adminlogin"
     },
     {
       "relation": "imports",
@@ -1047,9 +1224,9 @@
       "source_file": "client/src/App.jsx",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_app",
-      "target": "pages_adminlogin_adminlogin",
-      "confidence_score": 1.0
+      "target": "pages_adminlogin_adminlogin"
     },
     {
       "relation": "imports_from",
@@ -1058,9 +1235,9 @@
       "source_file": "client/src/App.jsx",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_app",
-      "target": "pages_invitepage",
-      "confidence_score": 1.0
+      "target": "pages_invitepage"
     },
     {
       "relation": "imports",
@@ -1069,9 +1246,9 @@
       "source_file": "client/src/App.jsx",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_app",
-      "target": "pages_invitepage_invitepage",
-      "confidence_score": 1.0
+      "target": "pages_invitepage_invitepage"
     },
     {
       "relation": "imports_from",
@@ -1080,9 +1257,9 @@
       "source_file": "client/src/App.jsx",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_app",
-      "target": "pages_seatingdirectory",
-      "confidence_score": 1.0
+      "target": "pages_seatingdirectory"
     },
     {
       "relation": "imports",
@@ -1091,9 +1268,9 @@
       "source_file": "client/src/App.jsx",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_app",
-      "target": "pages_seatingdirectory_seatingdirectory",
-      "confidence_score": 1.0
+      "target": "pages_seatingdirectory_seatingdirectory"
     },
     {
       "relation": "contains",
@@ -1101,9 +1278,9 @@
       "source_file": "client/src/App.jsx",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_app",
-      "target": "src_app_app",
-      "confidence_score": 1.0
+      "target": "src_app_app"
     },
     {
       "relation": "imports_from",
@@ -1112,9 +1289,9 @@
       "source_file": "client/src/main.jsx",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_main",
-      "target": "src_app",
-      "confidence_score": 1.0
+      "target": "src_app"
     },
     {
       "relation": "imports",
@@ -1123,9 +1300,9 @@
       "source_file": "client/src/main.jsx",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_main",
-      "target": "src_app_app",
-      "confidence_score": 1.0
+      "target": "src_app_app"
     },
     {
       "relation": "contains",
@@ -1133,9 +1310,9 @@
       "source_file": "client/src/lib/supabaseClient.js",
       "source_location": "L28",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "lib_supabaseclient",
-      "target": "lib_supabaseclient_supabase",
-      "confidence_score": 1.0
+      "target": "lib_supabaseclient_supabase"
     },
     {
       "relation": "imports_from",
@@ -1144,9 +1321,9 @@
       "source_file": "client/src/pages/AdminGuests.jsx",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "pages_adminguests",
-      "target": "lib_supabaseclient",
-      "confidence_score": 1.0
+      "target": "lib_supabaseclient"
     },
     {
       "relation": "imports_from",
@@ -1155,9 +1332,9 @@
       "source_file": "client/src/pages/AdminLogin.jsx",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "pages_adminlogin",
-      "target": "lib_supabaseclient",
-      "confidence_score": 1.0
+      "target": "lib_supabaseclient"
     },
     {
       "relation": "imports_from",
@@ -1166,9 +1343,9 @@
       "source_file": "client/src/pages/InvitePage.jsx",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "pages_invitepage",
-      "target": "lib_supabaseclient",
-      "confidence_score": 1.0
+      "target": "lib_supabaseclient"
     },
     {
       "relation": "imports_from",
@@ -1177,9 +1354,9 @@
       "source_file": "client/src/pages/SeatingDirectory.jsx",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "pages_seatingdirectory",
-      "target": "lib_supabaseclient",
-      "confidence_score": 1.0
+      "target": "lib_supabaseclient"
     },
     {
       "relation": "imports",
@@ -1188,9 +1365,9 @@
       "source_file": "client/src/pages/AdminGuests.jsx",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "pages_adminguests",
-      "target": "lib_supabaseclient_supabase",
-      "confidence_score": 1.0
+      "target": "lib_supabaseclient_supabase"
     },
     {
       "relation": "imports",
@@ -1199,9 +1376,9 @@
       "source_file": "client/src/pages/AdminLogin.jsx",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "pages_adminlogin",
-      "target": "lib_supabaseclient_supabase",
-      "confidence_score": 1.0
+      "target": "lib_supabaseclient_supabase"
     },
     {
       "relation": "imports",
@@ -1210,9 +1387,9 @@
       "source_file": "client/src/pages/SeatingDirectory.jsx",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "pages_seatingdirectory",
-      "target": "lib_supabaseclient_supabase",
-      "confidence_score": 1.0
+      "target": "lib_supabaseclient_supabase"
     },
     {
       "relation": "contains",
@@ -1220,9 +1397,9 @@
       "source_file": "client/src/pages/AdminGuests.jsx",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "pages_adminguests",
-      "target": "pages_adminguests_adminguests",
-      "confidence_score": 1.0
+      "target": "pages_adminguests_adminguests"
     },
     {
       "relation": "contains",
@@ -1230,9 +1407,9 @@
       "source_file": "client/src/pages/AdminLogin.jsx",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "pages_adminlogin",
-      "target": "pages_adminlogin_adminlogin",
-      "confidence_score": 1.0
+      "target": "pages_adminlogin_adminlogin"
     },
     {
       "relation": "contains",
@@ -1240,9 +1417,9 @@
       "source_file": "client/src/pages/InvitePage.jsx",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "pages_invitepage",
-      "target": "pages_invitepage_invitepage",
-      "confidence_score": 1.0
+      "target": "pages_invitepage_invitepage"
     },
     {
       "relation": "contains",
@@ -1250,9 +1427,9 @@
       "source_file": "client/src/pages/SeatingDirectory.jsx",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "pages_seatingdirectory",
-      "target": "pages_seatingdirectory_seatingdirectory",
-      "confidence_score": 1.0
+      "target": "pages_seatingdirectory_seatingdirectory"
     },
     {
       "relation": "imports_from",
@@ -1261,9 +1438,9 @@
       "source_file": "server/index.js",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "server_index",
-      "target": "routes_adminguests",
-      "confidence_score": 1.0
+      "target": "routes_adminguests"
     },
     {
       "relation": "imports",
@@ -1272,9 +1449,9 @@
       "source_file": "server/index.js",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "server_index",
-      "target": "routes_adminguests_router",
-      "confidence_score": 1.0
+      "target": "routes_adminguests_router"
     },
     {
       "relation": "imports_from",
@@ -1283,9 +1460,9 @@
       "source_file": "server/index.js",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "server_index",
-      "target": "routes_invite",
-      "confidence_score": 1.0
+      "target": "routes_invite"
     },
     {
       "relation": "imports",
@@ -1294,9 +1471,9 @@
       "source_file": "server/index.js",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "server_index",
-      "target": "routes_invite_router",
-      "confidence_score": 1.0
+      "target": "routes_invite_router"
     },
     {
       "relation": "imports_from",
@@ -1305,9 +1482,9 @@
       "source_file": "server/index.js",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "server_index",
-      "target": "routes_seatingdirectory",
-      "confidence_score": 1.0
+      "target": "routes_seatingdirectory"
     },
     {
       "relation": "imports",
@@ -1316,9 +1493,9 @@
       "source_file": "server/index.js",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "server_index",
-      "target": "routes_seatingdirectory_router",
-      "confidence_score": 1.0
+      "target": "routes_seatingdirectory_router"
     },
     {
       "relation": "contains",
@@ -1326,9 +1503,9 @@
       "source_file": "server/index.js",
       "source_location": "L10",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "server_index",
-      "target": "server_index_app",
-      "confidence_score": 1.0
+      "target": "server_index_app"
     },
     {
       "relation": "contains",
@@ -1336,9 +1513,9 @@
       "source_file": "server/package.json",
       "source_location": "L9",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "server_package",
-      "target": "server_package_dependencies",
-      "confidence_score": 1.0
+      "target": "server_package_dependencies"
     },
     {
       "relation": "contains",
@@ -1346,9 +1523,9 @@
       "source_file": "server/package.json",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "server_package",
-      "target": "server_package_name",
-      "confidence_score": 1.0
+      "target": "server_package_name"
     },
     {
       "relation": "contains",
@@ -1356,9 +1533,9 @@
       "source_file": "server/package.json",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "server_package",
-      "target": "server_package_scripts",
-      "confidence_score": 1.0
+      "target": "server_package_scripts"
     },
     {
       "relation": "contains",
@@ -1366,9 +1543,9 @@
       "source_file": "server/package.json",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "server_package",
-      "target": "server_package_type",
-      "confidence_score": 1.0
+      "target": "server_package_type"
     },
     {
       "relation": "contains",
@@ -1376,9 +1553,9 @@
       "source_file": "server/package.json",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "server_package",
-      "target": "server_package_version",
-      "confidence_score": 1.0
+      "target": "server_package_version"
     },
     {
       "relation": "contains",
@@ -1386,9 +1563,9 @@
       "source_file": "server/package.json",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "server_package_scripts",
-      "target": "server_package_scripts_dev",
-      "confidence_score": 1.0
+      "target": "server_package_scripts_dev"
     },
     {
       "relation": "contains",
@@ -1396,9 +1573,9 @@
       "source_file": "server/package.json",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "server_package_scripts",
-      "target": "server_package_scripts_start",
-      "confidence_score": 1.0
+      "target": "server_package_scripts_start"
     },
     {
       "relation": "contains",
@@ -1406,9 +1583,9 @@
       "source_file": "server/package.json",
       "source_location": "L11",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "server_package_dependencies",
-      "target": "server_package_dependencies_cors",
-      "confidence_score": 1.0
+      "target": "server_package_dependencies_cors"
     },
     {
       "relation": "contains",
@@ -1416,9 +1593,9 @@
       "source_file": "server/package.json",
       "source_location": "L12",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "server_package_dependencies",
-      "target": "server_package_dependencies_dotenv",
-      "confidence_score": 1.0
+      "target": "server_package_dependencies_dotenv"
     },
     {
       "relation": "contains",
@@ -1426,9 +1603,9 @@
       "source_file": "server/package.json",
       "source_location": "L13",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "server_package_dependencies",
-      "target": "server_package_dependencies_express",
-      "confidence_score": 1.0
+      "target": "server_package_dependencies_express"
     },
     {
       "relation": "contains",
@@ -1436,9 +1613,9 @@
       "source_file": "server/package.json",
       "source_location": "L14",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "server_package_dependencies",
-      "target": "server_package_dependencies_puppeteer",
-      "confidence_score": 1.0
+      "target": "server_package_dependencies_puppeteer"
     },
     {
       "relation": "contains",
@@ -1446,9 +1623,9 @@
       "source_file": "server/package.json",
       "source_location": "L15",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "server_package_dependencies",
-      "target": "server_package_dependencies_qrcode",
-      "confidence_score": 1.0
+      "target": "server_package_dependencies_qrcode"
     },
     {
       "relation": "contains",
@@ -1456,9 +1633,9 @@
       "source_file": "server/package.json",
       "source_location": "L10",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "server_package_dependencies",
-      "target": "server_package_dependencies_supabase_supabase_js",
-      "confidence_score": 1.0
+      "target": "server_package_dependencies_supabase_supabase_js"
     },
     {
       "relation": "contains",
@@ -1466,9 +1643,9 @@
       "source_file": "server/routes/adminGuests.js",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "routes_adminguests",
-      "target": "routes_adminguests_requireadmin",
-      "confidence_score": 1.0
+      "target": "routes_adminguests_requireadmin"
     },
     {
       "relation": "contains",
@@ -1476,9 +1653,9 @@
       "source_file": "server/routes/adminGuests.js",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "routes_adminguests",
-      "target": "routes_adminguests_router",
-      "confidence_score": 1.0
+      "target": "routes_adminguests_router"
     },
     {
       "relation": "imports_from",
@@ -1487,9 +1664,9 @@
       "source_file": "server/routes/adminGuests.js",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "routes_adminguests",
-      "target": "server_supabaseclient",
-      "confidence_score": 1.0
+      "target": "server_supabaseclient"
     },
     {
       "relation": "imports",
@@ -1498,9 +1675,9 @@
       "source_file": "server/routes/adminGuests.js",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "routes_adminguests",
-      "target": "server_supabaseclient_supabase",
-      "confidence_score": 1.0
+      "target": "server_supabaseclient_supabase"
     },
     {
       "relation": "contains",
@@ -1508,9 +1685,9 @@
       "source_file": "server/routes/invite.js",
       "source_location": "L22",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "routes_invite",
-      "target": "routes_invite_fetchguestwithvariant",
-      "confidence_score": 1.0
+      "target": "routes_invite_fetchguestwithvariant"
     },
     {
       "relation": "contains",
@@ -1518,9 +1695,9 @@
       "source_file": "server/routes/invite.js",
       "source_location": "L12",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "routes_invite",
-      "target": "routes_invite_getbrowser",
-      "confidence_score": 1.0
+      "target": "routes_invite_getbrowser"
     },
     {
       "relation": "contains",
@@ -1528,9 +1705,9 @@
       "source_file": "server/routes/invite.js",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "routes_invite",
-      "target": "routes_invite_router",
-      "confidence_score": 1.0
+      "target": "routes_invite_router"
     },
     {
       "relation": "imports_from",
@@ -1539,9 +1716,9 @@
       "source_file": "server/routes/invite.js",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "routes_invite",
-      "target": "server_supabaseclient",
-      "confidence_score": 1.0
+      "target": "server_supabaseclient"
     },
     {
       "relation": "imports",
@@ -1550,9 +1727,9 @@
       "source_file": "server/routes/invite.js",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "routes_invite",
-      "target": "server_supabaseclient_supabase",
-      "confidence_score": 1.0
+      "target": "server_supabaseclient_supabase"
     },
     {
       "relation": "imports_from",
@@ -1561,9 +1738,9 @@
       "source_file": "server/routes/invite.js",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "routes_invite",
-      "target": "templates_invitationtemplate",
-      "confidence_score": 1.0
+      "target": "templates_invitationtemplate"
     },
     {
       "relation": "imports",
@@ -1572,9 +1749,9 @@
       "source_file": "server/routes/invite.js",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "routes_invite",
-      "target": "templates_invitationtemplate_renderinvitationhtml",
-      "confidence_score": 1.0
+      "target": "templates_invitationtemplate_renderinvitationhtml"
     },
     {
       "relation": "contains",
@@ -1582,9 +1759,9 @@
       "source_file": "server/routes/seatingDirectory.js",
       "source_location": "L16",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "routes_seatingdirectory",
-      "target": "routes_seatingdirectory_buildshuffleddirectory",
-      "confidence_score": 1.0
+      "target": "routes_seatingdirectory_buildshuffleddirectory"
     },
     {
       "relation": "contains",
@@ -1592,9 +1769,9 @@
       "source_file": "server/routes/seatingDirectory.js",
       "source_location": "L159",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "routes_seatingdirectory",
-      "target": "routes_seatingdirectory_escapehtml",
-      "confidence_score": 1.0
+      "target": "routes_seatingdirectory_escapehtml"
     },
     {
       "relation": "contains",
@@ -1602,9 +1779,9 @@
       "source_file": "server/routes/seatingDirectory.js",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "routes_seatingdirectory",
-      "target": "routes_seatingdirectory_router",
-      "confidence_score": 1.0
+      "target": "routes_seatingdirectory_router"
     },
     {
       "relation": "contains",
@@ -1612,9 +1789,9 @@
       "source_file": "server/routes/seatingDirectory.js",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "routes_seatingdirectory",
-      "target": "routes_seatingdirectory_shuffle",
-      "confidence_score": 1.0
+      "target": "routes_seatingdirectory_shuffle"
     },
     {
       "relation": "imports_from",
@@ -1623,9 +1800,9 @@
       "source_file": "server/routes/seatingDirectory.js",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "routes_seatingdirectory",
-      "target": "server_supabaseclient",
-      "confidence_score": 1.0
+      "target": "server_supabaseclient"
     },
     {
       "relation": "imports",
@@ -1634,9 +1811,9 @@
       "source_file": "server/routes/seatingDirectory.js",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "routes_seatingdirectory",
-      "target": "server_supabaseclient_supabase",
-      "confidence_score": 1.0
+      "target": "server_supabaseclient_supabase"
     },
     {
       "relation": "calls",
@@ -1645,9 +1822,9 @@
       "source_file": "server/routes/seatingDirectory.js",
       "source_location": "L29",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "routes_seatingdirectory_buildshuffleddirectory",
-      "target": "routes_seatingdirectory_shuffle",
-      "confidence_score": 1.0
+      "target": "routes_seatingdirectory_shuffle"
     },
     {
       "relation": "contains",
@@ -1655,9 +1832,9 @@
       "source_file": "server/supabaseClient.js",
       "source_location": "L8",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "server_supabaseclient",
-      "target": "server_supabaseclient_supabase",
-      "confidence_score": 1.0
+      "target": "server_supabaseclient_supabase"
     },
     {
       "relation": "contains",
@@ -1665,9 +1842,9 @@
       "source_file": "server/templates/invitationTemplate.js",
       "source_location": "L200",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "templates_invitationtemplate",
-      "target": "templates_invitationtemplate_escapehtml",
-      "confidence_score": 1.0
+      "target": "templates_invitationtemplate_escapehtml"
     },
     {
       "relation": "contains",
@@ -1675,9 +1852,9 @@
       "source_file": "server/templates/invitationTemplate.js",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "templates_invitationtemplate",
-      "target": "templates_invitationtemplate_ornaments",
-      "confidence_score": 1.0
+      "target": "templates_invitationtemplate_ornaments"
     },
     {
       "relation": "contains",
@@ -1685,9 +1862,9 @@
       "source_file": "server/templates/invitationTemplate.js",
       "source_location": "L12",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "templates_invitationtemplate",
-      "target": "templates_invitationtemplate_renderinvitationhtml",
-      "confidence_score": 1.0
+      "target": "templates_invitationtemplate_renderinvitationhtml"
     },
     {
       "relation": "calls",
@@ -1696,8 +1873,38 @@
       "source_file": "server/templates/invitationTemplate.js",
       "source_location": "L177",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "templates_invitationtemplate_renderinvitationhtml",
-      "target": "templates_invitationtemplate_escapehtml",
+      "target": "templates_invitationtemplate_escapehtml"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/rules/graphify.md",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "rules_graphify",
+      "target": "rules_graphify_graphify",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/workflows/graphify.md",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "workflows_graphify",
+      "target": "workflows_graphify_workflow_graphify",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "readme",
+      "target": "readme_enoch_s_dedication_guest_invitation_system",
       "confidence_score": 1.0
     },
     {
@@ -1705,7 +1912,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "README.md",
-      "source": "readme_enoch_invites",
+      "source": "readme_enoch_s_dedication_guest_invitation_system",
       "target": "client_index_html"
     },
     {
@@ -1713,7 +1920,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "README.md",
-      "source": "readme_enoch_invites",
+      "source": "readme_enoch_s_dedication_guest_invitation_system",
       "target": "design_variants"
     },
     {
@@ -1721,7 +1928,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "README.md",
-      "source": "readme_enoch_invites",
+      "source": "readme_enoch_s_dedication_guest_invitation_system",
       "target": "server_index_js"
     },
     {
@@ -1729,7 +1936,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "README.md",
-      "source": "readme_enoch_invites",
+      "source": "readme_enoch_s_dedication_guest_invitation_system",
       "target": "supabase_schema_sql"
     },
     {
@@ -1737,8 +1944,138 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "README.md",
-      "source": "readme_enoch_invites",
+      "source": "readme_enoch_s_dedication_guest_invitation_system",
       "target": "supabase_seed_sql"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L116",
+      "weight": 1.0,
+      "source": "readme_enoch_s_dedication_guest_invitation_system",
+      "target": "readme_deployment_notes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L128",
+      "weight": 1.0,
+      "source": "readme_enoch_s_dedication_guest_invitation_system",
+      "target": "readme_design_variants_reference",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L93",
+      "weight": 1.0,
+      "source": "readme_enoch_s_dedication_guest_invitation_system",
+      "target": "readme_how_to_reassign_a_table",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L27",
+      "weight": 1.0,
+      "source": "readme_enoch_s_dedication_guest_invitation_system",
+      "target": "readme_project_structure",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L47",
+      "weight": 1.0,
+      "source": "readme_enoch_s_dedication_guest_invitation_system",
+      "target": "readme_setup_step_by_step",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L103",
+      "weight": 1.0,
+      "source": "readme_enoch_s_dedication_guest_invitation_system",
+      "target": "readme_sharing_invitations_with_guests",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "readme_enoch_s_dedication_guest_invitation_system",
+      "target": "readme_what_s_included",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L49",
+      "weight": 1.0,
+      "source": "readme_setup_step_by_step",
+      "target": "readme_1_create_a_supabase_project",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L55",
+      "weight": 1.0,
+      "source": "readme_setup_step_by_step",
+      "target": "readme_2_run_the_database_schema",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L59",
+      "weight": 1.0,
+      "source": "readme_setup_step_by_step",
+      "target": "readme_3_create_your_admin_login",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L63",
+      "weight": 1.0,
+      "source": "readme_setup_step_by_step",
+      "target": "readme_4_configure_the_server",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L73",
+      "weight": 1.0,
+      "source": "readme_setup_step_by_step",
+      "target": "readme_5_configure_the_client",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L83",
+      "weight": 1.0,
+      "source": "readme_setup_step_by_step",
+      "target": "readme_6_try_it_out",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",

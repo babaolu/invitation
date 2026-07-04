@@ -129,7 +129,7 @@
       "source_location": "L11",
       "_origin": "ast",
       "id": "client_package_dependencies",
-      "community": 5,
+      "community": 3,
       "norm_label": "dependencies"
     },
     {
@@ -139,7 +139,7 @@
       "source_location": "L12",
       "_origin": "ast",
       "id": "client_package_dependencies_supabase_supabase_js",
-      "community": 5,
+      "community": 3,
       "norm_label": "@supabase/supabase-js"
     },
     {
@@ -149,7 +149,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "client_package_dependencies_qrcode_react",
-      "community": 5,
+      "community": 3,
       "norm_label": "qrcode.react"
     },
     {
@@ -159,7 +159,7 @@
       "source_location": "L14",
       "_origin": "ast",
       "id": "client_package_dependencies_react",
-      "community": 5,
+      "community": 3,
       "norm_label": "react"
     },
     {
@@ -169,7 +169,7 @@
       "source_location": "L15",
       "_origin": "ast",
       "id": "client_package_dependencies_react_dom",
-      "community": 5,
+      "community": 3,
       "norm_label": "react-dom"
     },
     {
@@ -179,7 +179,7 @@
       "source_location": "L16",
       "_origin": "ast",
       "id": "client_package_dependencies_react_router_dom",
-      "community": 5,
+      "community": 3,
       "norm_label": "react-router-dom"
     },
     {
@@ -313,10 +313,20 @@
       "norm_label": "invitepage.jsx"
     },
     {
+      "label": "CENTER_ORNAMENTS",
+      "file_type": "code",
+      "source_file": "client/src/pages/InvitePage.jsx",
+      "source_location": "L20",
+      "_origin": "ast",
+      "id": "pages_invitepage_center_ornaments",
+      "community": 2,
+      "norm_label": "center_ornaments"
+    },
+    {
       "label": "InvitePage()",
       "file_type": "code",
       "source_file": "client/src/pages/InvitePage.jsx",
-      "source_location": "L6",
+      "source_location": "L69",
       "_origin": "ast",
       "id": "pages_invitepage_invitepage",
       "community": 2,
@@ -576,7 +586,7 @@
       "label": "fetchGuestWithVariant()",
       "file_type": "code",
       "source_file": "server/routes/invite.js",
-      "source_location": "L28",
+      "source_location": "L40",
       "_origin": "ast",
       "id": "routes_invite_fetchguestwithvariant",
       "community": 0,
@@ -663,20 +673,20 @@
       "norm_label": "invitationtemplate.js"
     },
     {
-      "label": "ORNAMENTS",
+      "label": "CENTER_ORNAMENTS",
       "file_type": "code",
       "source_file": "server/templates/invitationTemplate.js",
-      "source_location": "L5",
+      "source_location": "L19",
       "_origin": "ast",
-      "id": "templates_invitationtemplate_ornaments",
+      "id": "templates_invitationtemplate_center_ornaments",
       "community": 6,
-      "norm_label": "ornaments"
+      "norm_label": "center_ornaments"
     },
     {
       "label": "renderInvitationHTML()",
       "file_type": "code",
       "source_file": "server/templates/invitationTemplate.js",
-      "source_location": "L12",
+      "source_location": "L68",
       "_origin": "ast",
       "id": "templates_invitationtemplate_renderinvitationhtml",
       "community": 6,
@@ -686,7 +696,7 @@
       "label": "escapeHtml()",
       "file_type": "code",
       "source_file": "server/templates/invitationTemplate.js",
-      "source_location": "L200",
+      "source_location": "L328",
       "_origin": "ast",
       "id": "templates_invitationtemplate_escapehtml",
       "community": 6,
@@ -1415,6 +1425,16 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "client/src/pages/InvitePage.jsx",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "pages_invitepage",
+      "target": "pages_invitepage_center_ornaments",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "client/src/pages/InvitePage.jsx",
       "source_location": "L6",
       "weight": 1.0,
       "confidence_score": 1.0,
@@ -1840,21 +1860,21 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "server/templates/invitationTemplate.js",
-      "source_location": "L200",
+      "source_location": "L19",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "templates_invitationtemplate",
-      "target": "templates_invitationtemplate_escapehtml"
+      "target": "templates_invitationtemplate_center_ornaments",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "server/templates/invitationTemplate.js",
-      "source_location": "L5",
+      "source_location": "L200",
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "templates_invitationtemplate",
-      "target": "templates_invitationtemplate_ornaments"
+      "target": "templates_invitationtemplate_escapehtml"
     },
     {
       "relation": "contains",
@@ -1883,9 +1903,9 @@
       "source_file": ".agents/rules/graphify.md",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "rules_graphify",
-      "target": "rules_graphify_graphify",
-      "confidence_score": 1.0
+      "target": "rules_graphify_graphify"
     },
     {
       "relation": "contains",
@@ -1893,9 +1913,9 @@
       "source_file": ".agents/workflows/graphify.md",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "workflows_graphify",
-      "target": "workflows_graphify_workflow_graphify",
-      "confidence_score": 1.0
+      "target": "workflows_graphify_workflow_graphify"
     },
     {
       "relation": "contains",
@@ -1903,9 +1923,9 @@
       "source_file": "README.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "readme",
-      "target": "readme_enoch_s_dedication_guest_invitation_system",
-      "confidence_score": 1.0
+      "target": "readme_enoch_s_dedication_guest_invitation_system"
     },
     {
       "relation": "references",
@@ -1922,6 +1942,76 @@
       "source_file": "README.md",
       "source": "readme_enoch_s_dedication_guest_invitation_system",
       "target": "design_variants"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L116",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "readme_enoch_s_dedication_guest_invitation_system",
+      "target": "readme_deployment_notes"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L128",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "readme_enoch_s_dedication_guest_invitation_system",
+      "target": "readme_design_variants_reference"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L93",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "readme_enoch_s_dedication_guest_invitation_system",
+      "target": "readme_how_to_reassign_a_table"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L27",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "readme_enoch_s_dedication_guest_invitation_system",
+      "target": "readme_project_structure"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L47",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "readme_enoch_s_dedication_guest_invitation_system",
+      "target": "readme_setup_step_by_step"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L103",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "readme_enoch_s_dedication_guest_invitation_system",
+      "target": "readme_sharing_invitations_with_guests"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L10",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "readme_enoch_s_dedication_guest_invitation_system",
+      "target": "readme_what_s_included"
     },
     {
       "relation": "references",
@@ -1951,81 +2041,11 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "README.md",
-      "source_location": "L116",
-      "weight": 1.0,
-      "source": "readme_enoch_s_dedication_guest_invitation_system",
-      "target": "readme_deployment_notes",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L128",
-      "weight": 1.0,
-      "source": "readme_enoch_s_dedication_guest_invitation_system",
-      "target": "readme_design_variants_reference",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L93",
-      "weight": 1.0,
-      "source": "readme_enoch_s_dedication_guest_invitation_system",
-      "target": "readme_how_to_reassign_a_table",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L27",
-      "weight": 1.0,
-      "source": "readme_enoch_s_dedication_guest_invitation_system",
-      "target": "readme_project_structure",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L47",
-      "weight": 1.0,
-      "source": "readme_enoch_s_dedication_guest_invitation_system",
-      "target": "readme_setup_step_by_step",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L103",
-      "weight": 1.0,
-      "source": "readme_enoch_s_dedication_guest_invitation_system",
-      "target": "readme_sharing_invitations_with_guests",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L10",
-      "weight": 1.0,
-      "source": "readme_enoch_s_dedication_guest_invitation_system",
-      "target": "readme_what_s_included",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
       "source_location": "L49",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "readme_setup_step_by_step",
-      "target": "readme_1_create_a_supabase_project",
-      "confidence_score": 1.0
+      "target": "readme_1_create_a_supabase_project"
     },
     {
       "relation": "contains",
@@ -2033,9 +2053,9 @@
       "source_file": "README.md",
       "source_location": "L55",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "readme_setup_step_by_step",
-      "target": "readme_2_run_the_database_schema",
-      "confidence_score": 1.0
+      "target": "readme_2_run_the_database_schema"
     },
     {
       "relation": "contains",
@@ -2043,9 +2063,9 @@
       "source_file": "README.md",
       "source_location": "L59",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "readme_setup_step_by_step",
-      "target": "readme_3_create_your_admin_login",
-      "confidence_score": 1.0
+      "target": "readme_3_create_your_admin_login"
     },
     {
       "relation": "contains",
@@ -2053,9 +2073,9 @@
       "source_file": "README.md",
       "source_location": "L63",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "readme_setup_step_by_step",
-      "target": "readme_4_configure_the_server",
-      "confidence_score": 1.0
+      "target": "readme_4_configure_the_server"
     },
     {
       "relation": "contains",
@@ -2063,9 +2083,9 @@
       "source_file": "README.md",
       "source_location": "L73",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "readme_setup_step_by_step",
-      "target": "readme_5_configure_the_client",
-      "confidence_score": 1.0
+      "target": "readme_5_configure_the_client"
     },
     {
       "relation": "contains",
@@ -2073,9 +2093,9 @@
       "source_file": "README.md",
       "source_location": "L83",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "readme_setup_step_by_step",
-      "target": "readme_6_try_it_out",
-      "confidence_score": 1.0
+      "target": "readme_6_try_it_out"
     },
     {
       "relation": "calls",
@@ -2130,5 +2150,5 @@
       "source_file": "README.md"
     }
   ],
-  "built_at_commit": "aeeaafefa86c2320c43cff1ae4abb722b596e8f0"
+  "built_at_commit": "560c1734d28c7dcc920d63d57e6c17051b0419f4"
 }

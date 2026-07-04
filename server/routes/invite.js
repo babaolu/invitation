@@ -25,6 +25,18 @@ async function getBrowser() {
   return browserInstance;
 }
 
+// Close browser on exit to prevent hanging processes
+process.on('SIGTERM', async () => {
+  if (browserInstance) {
+    try { await browserInstance.close(); } catch {}
+  }
+});
+process.on('SIGINT', async () => {
+  if (browserInstance) {
+    try { await browserInstance.close(); } catch {}
+  }
+});
+
 async function fetchGuestWithVariant(slug) {
   const { data: guest, error } = await supabase
     .from('guests')

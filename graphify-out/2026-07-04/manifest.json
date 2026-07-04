@@ -65,9 +65,9 @@
     "semantic_hash": "b6b6ecb855150216180dd5f7bd0c763c"
   },
   "server/routes/invite.js": {
-    "mtime": 1783134078.8013937,
-    "ast_hash": "ce968c8212ff45b9c893351d9ea58a73",
-    "semantic_hash": "ce968c8212ff45b9c893351d9ea58a73"
+    "mtime": 1783152968.5491114,
+    "ast_hash": "8e23dd8d4ff64eff17998b1ad0ef2dbc",
+    "semantic_hash": ""
   },
   "server/routes/seatingDirectory.js": {
     "mtime": 1783134078.8013296,

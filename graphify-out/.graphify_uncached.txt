@@ -1,4 +1,0 @@
-/home/itunz/Work/enoch-invites_2/.agents/rules/graphify.md
-/home/itunz/Work/enoch-invites_2/.agents/workflows/graphify.md
-/home/itunz/Work/enoch-invites_2/README.md
-/home/itunz/Work/enoch-invites_2/client/index.html

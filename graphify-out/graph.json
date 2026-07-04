@@ -316,7 +316,7 @@
       "label": "CENTER_ORNAMENTS",
       "file_type": "code",
       "source_file": "client/src/pages/InvitePage.jsx",
-      "source_location": "L20",
+      "source_location": "L40",
       "_origin": "ast",
       "id": "pages_invitepage_center_ornaments",
       "community": 2,
@@ -326,7 +326,7 @@
       "label": "InvitePage()",
       "file_type": "code",
       "source_file": "client/src/pages/InvitePage.jsx",
-      "source_location": "L69",
+      "source_location": "L89",
       "_origin": "ast",
       "id": "pages_invitepage_invitepage",
       "community": 2,
@@ -586,7 +586,7 @@
       "label": "fetchGuestWithVariant()",
       "file_type": "code",
       "source_file": "server/routes/invite.js",
-      "source_location": "L40",
+      "source_location": "L42",
       "_origin": "ast",
       "id": "routes_invite_fetchguestwithvariant",
       "community": 0,
@@ -676,7 +676,7 @@
       "label": "CENTER_ORNAMENTS",
       "file_type": "code",
       "source_file": "server/templates/invitationTemplate.js",
-      "source_location": "L19",
+      "source_location": "L46",
       "_origin": "ast",
       "id": "templates_invitationtemplate_center_ornaments",
       "community": 6,
@@ -686,7 +686,7 @@
       "label": "renderInvitationHTML()",
       "file_type": "code",
       "source_file": "server/templates/invitationTemplate.js",
-      "source_location": "L68",
+      "source_location": "L95",
       "_origin": "ast",
       "id": "templates_invitationtemplate_renderinvitationhtml",
       "community": 6,
@@ -696,7 +696,7 @@
       "label": "escapeHtml()",
       "file_type": "code",
       "source_file": "server/templates/invitationTemplate.js",
-      "source_location": "L328",
+      "source_location": "L395",
       "_origin": "ast",
       "id": "templates_invitationtemplate_escapehtml",
       "community": 6,
@@ -1427,9 +1427,9 @@
       "source_file": "client/src/pages/InvitePage.jsx",
       "source_location": "L20",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "pages_invitepage",
-      "target": "pages_invitepage_center_ornaments",
-      "confidence_score": 1.0
+      "target": "pages_invitepage_center_ornaments"
     },
     {
       "relation": "contains",
@@ -1862,9 +1862,9 @@
       "source_file": "server/templates/invitationTemplate.js",
       "source_location": "L19",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "templates_invitationtemplate",
-      "target": "templates_invitationtemplate_center_ornaments",
-      "confidence_score": 1.0
+      "target": "templates_invitationtemplate_center_ornaments"
     },
     {
       "relation": "contains",
@@ -2150,5 +2150,5 @@
       "source_file": "README.md"
     }
   ],
-  "built_at_commit": "560c1734d28c7dcc920d63d57e6c17051b0419f4"
+  "built_at_commit": "4aa84f3a569189150e8a8df005eff4a72aa27247"
 }

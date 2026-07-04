@@ -4,16 +4,36 @@ import { QRCodeSVG } from 'qrcode.react';
 import { API_BASE } from '../lib/supabaseClient';
 
 const CORNER_SVG = (
-  <svg viewBox="0 0 100 100" style={{ width: '100%', height: '100%' }}>
-    <path d="M 0 0 C 25 8, 45 15, 52 35 C 36 30, 20 18, 0 0 Z" fill="var(--accent)" fillOpacity="0.12" />
-    <path d="M 0 0 C 8 25, 15 45, 35 52 C 30 36, 18 20, 0 0 Z" fill="var(--accent)" fillOpacity="0.12" />
-    <path d="M 0 0 Q 35 15, 65 65" fill="none" stroke="var(--accent)" strokeWidth="0.8" strokeLinecap="round" opacity="0.4" />
-    <path d="M 0 0 Q 15 35, 45 55" fill="none" stroke="var(--accent)" strokeWidth="0.5" strokeLinecap="round" opacity="0.3" />
-    <path d="M 24 15 C 27 10, 34 10, 36 15 C 32 19, 26 19, 24 15 Z" fill="var(--accent)" fillOpacity="0.2" stroke="var(--accent)" strokeWidth="0.6" />
-    <path d="M 15 24 C 10 27, 10 34, 15 36 C 19 32, 19 26, 15 24 Z" fill="var(--accent)" fillOpacity="0.2" stroke="var(--accent)" strokeWidth="0.6" />
-    <circle cx="5" cy="35" r="1.2" fill="var(--accent)" opacity="0.6" />
-    <circle cx="30" cy="5" r="1.2" fill="var(--accent)" opacity="0.6" />
-    <circle cx="52" cy="52" r="1.5" fill="var(--accent)" opacity="0.6" />
+  <svg viewBox="0 0 100 100" style={{ width: '100%', height: '100%', fill: 'none' }}>
+    <path d="M 0 0 C 30 10, 55 20, 65 45 C 48 40, 28 25, 0 0 Z" fill="var(--accent)" fillOpacity="0.1" stroke="var(--accent)" strokeWidth="1.1" />
+    <path d="M 0 0 C 10 30, 20 55, 45 65 C 40 48, 25 28, 0 0 Z" fill="var(--accent)" fillOpacity="0.1" stroke="var(--accent)" strokeWidth="1.1" />
+    <path d="M 0 0 Q 40 18, 75 75" fill="none" stroke="var(--accent)" strokeWidth="1.0" strokeLinecap="round" opacity="0.4" />
+    <path d="M 0 0 Q 18 40, 50 65" fill="none" stroke="var(--accent)" strokeWidth="0.7" strokeLinecap="round" opacity="0.3" />
+    <path d="M 30 18 C 34 12, 42 12, 44 18 C 39 23, 31 23, 30 18 Z" fill="var(--accent)" fillOpacity="0.18" stroke="var(--accent)" strokeWidth="0.7" />
+    <path d="M 18 30 C 12 34, 12 42, 18 44 C 23 39, 23 31, 18 30 Z" fill="var(--accent)" fillOpacity="0.18" stroke="var(--accent)" strokeWidth="0.7" />
+    <path d="M 36 28 C 42 24, 48 26, 48 33 C 42 37, 36 34, 36 28 Z" fill="var(--accent)" fillOpacity="0.18" stroke="var(--accent)" strokeWidth="0.7" />
+    <path d="M 28 36 C 24 42, 26 48, 33 48 C 37 42, 34 36, 28 36 Z" fill="var(--accent)" fill-opacity="0.18" stroke="var(--accent)" strokeWidth="0.7" />
+    <path d="M 52 46 C 58 42, 65 45, 63 53 C 57 56, 50 51, 52 46 Z" fill="var(--accent)" fillOpacity="0.18" stroke="var(--accent)" strokeWidth="0.7" />
+    <path d="M 46 52 C 42 58, 45 65, 53 63 C 56 57, 51 50, 46 52 Z" fill="var(--accent)" fillOpacity="0.18" stroke="var(--accent)" strokeWidth="0.7" />
+    <circle cx="8" cy="45" r="1.5" fill="var(--accent)" opacity="0.6" />
+    <circle cx="45" cy="8" r="1.5" fill="var(--accent)" opacity="0.6" />
+    <circle cx="62" cy="62" r="1.8" fill="var(--accent)" opacity="0.6" />
+    <circle cx="70" cy="52" r="1.2" fill="var(--accent)" opacity="0.5" />
+    <circle cx="52" cy="70" r="1.2" fill="var(--accent)" opacity="0.5" />
+  </svg>
+);
+
+const WATERMARK_SVG = (
+  <svg viewBox="0 0 120 120" style={{ width: '100%', height: '100%', fill: 'none' }}>
+    <path d="M 10 90 Q 40 50, 70 80 T 110 30" stroke="var(--accent)" strokeWidth="0.8" strokeLinecap="round" fill="none" />
+    <path d="M 25 70 C 20 60, 30 55, 35 65 Z" fill="var(--accent)" fillOpacity="0.2" stroke="var(--accent)" strokeWidth="0.5" />
+    <path d="M 40 60 C 45 50, 55 52, 50 62 Z" fill="var(--accent)" fillOpacity="0.2" stroke="var(--accent)" strokeWidth="0.5" />
+    <path d="M 58 68 C 65 58, 72 62, 66 70 Z" fill="var(--accent)" fillOpacity="0.2" stroke="var(--accent)" strokeWidth="0.5" />
+    <path d="M 75 70 C 80 60, 90 62, 85 72 Z" fill="var(--accent)" fillOpacity="0.2" stroke="var(--accent)" strokeWidth="0.5" />
+    <path d="M 90 52 C 95 42, 105 45, 100 55 Z" fill="var(--accent)" fillOpacity="0.2" stroke="var(--accent)" strokeWidth="0.5" />
+    <circle cx="32" cy="55" r="1" fill="var(--accent)" />
+    <circle cx="68" cy="58" r="1" fill="var(--accent)" />
+    <circle cx="98" cy="42" r="1.2" fill="var(--accent)" />
   </svg>
 );
 
@@ -47,9 +67,9 @@ const CENTER_ORNAMENTS = {
     <svg className="center-ornament-svg" viewBox="0 0 100 100">
       <circle cx="50" cy="50" r="10" fill="var(--accent-light)" fillOpacity="0.4" stroke="var(--accent)" strokeWidth="1" />
       <path d="M 50 22 C 40 32, 40 45, 50 50 C 60 45, 60 32, 50 22 Z" fill="var(--accent-light)" fillOpacity="0.4" stroke="var(--accent)" strokeWidth="1" />
-      <path d="M 50 78 C 40 68, 40 55, 50 50 C 60 55, 60 68, 50 78 Z" fill="var(--accent-light)" fillOpacity="0.4" stroke="var(--accent)" stroke-width="1" />
-      <path d="M 22 50 C 32 40, 45 40, 50 50 C 45 60, 32 60, 22 50 Z" fill="var(--accent-light)" fillOpacity="0.4" stroke="var(--accent)" stroke-width="1" />
-      <path d="M 78 50 C 68 40, 55 40, 50 50 C 55 60, 68 60, 78 50 Z" fill="var(--accent-light)" fillOpacity="0.4" stroke="var(--accent)" stroke-width="1" />
+      <path d="M 50 78 C 40 68, 40 55, 50 50 C 60 55, 60 68, 50 78 Z" fill="var(--accent-light)" fillOpacity="0.4" stroke="var(--accent)" strokeWidth="1" />
+      <path d="M 22 50 C 32 40, 45 40, 50 50 C 45 60, 32 60, 22 50 Z" fill="var(--accent-light)" fillOpacity="0.4" stroke="var(--accent)" strokeWidth="1" />
+      <path d="M 78 50 C 68 40, 55 40, 50 50 C 55 60, 68 60, 78 50 Z" fill="var(--accent-light)" fill-opacity="0.4" stroke="var(--accent)" strokeWidth="1" />
       <circle cx="50" cy="50" r="3" fill="var(--accent)" />
     </svg>
   ),
@@ -102,11 +122,19 @@ export default function InvitePage() {
   return (
     <div
       className="invite-wrap"
-      style={{ '--accent': guest.accentColor, '--accent-light': guest.accentLight }}
+      style={{
+        '--accent': guest.accentColor,
+        '--accent-light': guest.accentLight,
+        '--accent-light-alpha': `${guest.accentLight}1f`,
+      }}
     >
       <div className="invite-container">
         <div className="invite-card">
           <div className="card-border-inner">
+            {/* Watermark Background Textures */}
+            <div className="watermark watermark-1">{WATERMARK_SVG}</div>
+            <div className="watermark watermark-2">{WATERMARK_SVG}</div>
+
             {/* 4 Corner Ornaments */}
             <div className="corner-svg top-left">{CORNER_SVG}</div>
             <div className="corner-svg top-right">{CORNER_SVG}</div>
@@ -114,7 +142,7 @@ export default function InvitePage() {
             <div className="corner-svg bottom-right">{CORNER_SVG}</div>
 
             {/* Top Section */}
-            <div className="top-section">
+            <div className="top-section content-block">
               <div className="ornament">{ornamentComponent}</div>
               <div className="pre-heading">A Special Celebration of Life</div>
               <h1 className="main-heading">Enoch's Dedication</h1>
@@ -123,7 +151,7 @@ export default function InvitePage() {
             </div>
 
             {/* Guest Section */}
-            <div className="guest-section">
+            <div className="guest-section content-block">
               <div className="guest-label">This Invitation Belongs To</div>
               <div className="guest-name">{guest.fullName}</div>
             </div>
@@ -144,7 +172,7 @@ export default function InvitePage() {
             </div>
 
             {/* QR Code Section */}
-            <div className="qr-section">
+            <div className="qr-section content-block">
               <QRCodeSVG value={inviteUrl} size={84} />
               <p className="qr-hint">Scan to revisit this invitation</p>
             </div>
@@ -190,9 +218,9 @@ export default function InvitePage() {
           position: relative;
           width: 100%;
           background: #ffffff;
-          border: 1.5px solid var(--accent);
+          border: 1px solid var(--accent);
           border-radius: 12px;
-          padding: 5px;
+          padding: 4px;
           display: flex;
           box-shadow: 0 20px 60px rgba(90,128,144,0.08);
           box-sizing: border-box;
@@ -201,35 +229,65 @@ export default function InvitePage() {
         .card-border-inner {
           flex: 1;
           width: 100%;
-          border: 1px solid var(--accent-light);
+          border: 1px solid var(--accent);
           border-radius: 8px;
           display: flex;
           flex-direction: column;
           align-items: center;
           justify-content: space-between;
-          padding: 44px 20px;
+          padding: 38px 16px;
           position: relative;
           box-sizing: border-box;
           text-align: center;
-          min-height: 580px;
+          min-height: 590px;
           background: 
-            radial-gradient(circle at 30% 20%, rgba(255, 255, 255, 0.95) 0%, rgba(251, 250, 246, 0.7) 50%, rgba(245, 244, 236, 0.4) 100%),
-            radial-gradient(circle at 80% 80%, rgba(251, 250, 246, 0.9) 0%, rgba(245, 244, 236, 0.7) 60%, rgba(238, 236, 224, 0.4) 100%);
+            radial-gradient(ellipse at center, #ffffff 0%, var(--accent-light-alpha) 100%);
           background-color: #fbfaf6;
         }
 
-        /* Corner Ornaments */
+        /* Watermarks */
+        .watermark {
+          position: absolute;
+          width: 260px;
+          height: 260px;
+          opacity: 0.08; /* 8-12% opacity wash */
+          pointer-events: none;
+          z-index: 0;
+        }
+        .watermark-1 {
+          top: 12%;
+          left: -48px;
+          transform: rotate(15deg);
+        }
+        .watermark-2 {
+          bottom: 12%;
+          right: -48px;
+          transform: rotate(195deg) scaleX(-1);
+        }
+
+        /* Corner Ornaments - Enlarged and Thicker */
         .corner-svg {
           position: absolute;
-          width: 80px;
-          height: 80px;
-          opacity: 0.55;
+          width: 140px;
+          height: 140px;
+          opacity: 0.48; /* 40-55% opacity */
           pointer-events: none;
+          z-index: 0;
         }
         .corner-svg.top-left { top: 0; left: 0; }
         .corner-svg.top-right { top: 0; right: 0; transform: scaleX(-1); }
         .corner-svg.bottom-left { bottom: 0; left: 0; transform: scaleY(-1); }
         .corner-svg.bottom-right { bottom: 0; right: 0; transform: scale(-1); }
+
+        /* Raise Content above Watermark Background */
+        .content-block {
+          position: relative;
+          z-index: 1;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          width: 100%;
+        }
 
         /* Top Section styling */
         .top-section {
@@ -250,27 +308,27 @@ export default function InvitePage() {
           height: 48px;
         }
         .pre-heading {
-          font-size: 9px;
+          font-size: 12px; /* Increased to 12px */
           letter-spacing: 0.32em;
           text-transform: uppercase;
           color: var(--accent);
-          font-weight: 500;
+          font-weight: 600;
           margin-bottom: 8px;
         }
         .main-heading {
           font-family: 'Cormorant Garamond', serif;
-          font-size: 36px;
+          font-size: 42px; /* Increased to 42px */
           font-weight: 300;
           color: #2e3a40;
           line-height: 1.1;
-          margin: 0 0 4px;
+          margin: 0 0 6px;
         }
         .sub-heading {
           font-family: 'Cormorant Garamond', serif;
-          font-size: 15px;
+          font-size: 18px; /* Increased to 18px */
           font-style: italic;
           color: #6b7680;
-          margin: 0 0 12px;
+          margin: 0 0 14px;
         }
         .flourish-divider {
           width: 160px;
@@ -278,7 +336,7 @@ export default function InvitePage() {
           display: flex;
           align-items: center;
           justify-content: center;
-          margin-bottom: 12px;
+          margin-bottom: 14px;
         }
         .flourish-svg {
           width: 100%;
@@ -293,7 +351,7 @@ export default function InvitePage() {
           width: 100%;
         }
         .guest-label {
-          font-size: 8.5px;
+          font-size: 11px; /* Increased to 11px */
           letter-spacing: 0.25em;
           text-transform: uppercase;
           color: #8b959c;
@@ -301,19 +359,19 @@ export default function InvitePage() {
         }
         .guest-name {
           font-family: 'Cormorant Garamond', serif;
-          font-size: 26px;
+          font-size: 32px; /* Increased to 32px */
           font-weight: 400;
           font-style: italic;
           color: #232c30;
-          margin: 0 0 16px;
+          margin: 0 0 18px;
           padding: 0 16px;
           line-height: 1.2;
         }
 
         /* Table Badge */
         .table-badge {
-          width: 80px;
-          height: 80px;
+          width: 90px;
+          height: 90px;
           border-radius: 50%;
           border: 1px solid var(--accent);
           background: var(--accent-light);
@@ -321,12 +379,14 @@ export default function InvitePage() {
           flex-direction: column;
           align-items: center;
           justify-content: center;
-          margin-bottom: 16px;
+          margin-bottom: 18px;
           box-shadow: 0 4px 12px rgba(90,128,144,0.06);
+          position: relative;
+          z-index: 1;
         }
         .table-badge-inner {
-          width: 70px;
-          height: 70px;
+          width: 78px;
+          height: 78px;
           border-radius: 50%;
           border: 0.8px dashed var(--accent);
           display: flex;
@@ -335,7 +395,7 @@ export default function InvitePage() {
           justify-content: center;
         }
         .table-badge-label {
-          font-size: 7.5px;
+          font-size: 11px; /* Increased to 11px */
           letter-spacing: 0.18em;
           text-transform: uppercase;
           color: var(--accent);
@@ -344,17 +404,19 @@ export default function InvitePage() {
         }
         .table-badge-number {
           font-family: 'Cormorant Garamond', serif;
-          font-size: 26px;
+          font-size: 30px; /* Increased to 30px */
           font-weight: 600;
           color: #2e3a40;
           line-height: 1;
         }
 
         .event-details {
-          font-size: 11px;
+          font-size: 15px; /* Increased to 15px */
           color: #6b7680;
-          line-height: 1.7;
-          margin-bottom: 16px;
+          line-height: 2.0; /* Increased to 2.0 */
+          margin-bottom: 18px;
+          position: relative;
+          z-index: 1;
         }
         .event-details strong {
           color: #2e3a40;
@@ -366,7 +428,7 @@ export default function InvitePage() {
           align-items: center;
         }
         .qr-hint {
-          font-size: 7.5px;
+          font-size: 10px; /* Increased to 10px */
           color: #a0a8ac;
           letter-spacing: 0.08em;
           text-transform: uppercase;

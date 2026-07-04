@@ -30,11 +30,13 @@ process.on('SIGTERM', async () => {
   if (browserInstance) {
     try { await browserInstance.close(); } catch {}
   }
+  process.exit(0);
 });
 process.on('SIGINT', async () => {
   if (browserInstance) {
     try { await browserInstance.close(); } catch {}
   }
+  process.exit(0);
 });
 
 async function fetchGuestWithVariant(slug) {

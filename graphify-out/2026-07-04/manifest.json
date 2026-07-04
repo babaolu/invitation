@@ -20,8 +20,8 @@
     "semantic_hash": "ec471e0da66adabd8f03e362ae39e837"
   },
   "client/src/pages/AdminGuests.jsx": {
-    "mtime": 1783160762.17612,
-    "ast_hash": "03d1dcee49336e7452774e97dde7bce6",
+    "mtime": 1783162907.6627805,
+    "ast_hash": "6ce8d13602bda6f8c178de45961a7d78",
     "semantic_hash": ""
   },
   "client/src/pages/AdminLogin.jsx": {
@@ -60,9 +60,9 @@
     "semantic_hash": "d95dca61f200aa21916603bd30e34086"
   },
   "server/routes/adminGuests.js": {
-    "mtime": 1783134078.8014367,
-    "ast_hash": "b6b6ecb855150216180dd5f7bd0c763c",
-    "semantic_hash": "b6b6ecb855150216180dd5f7bd0c763c"
+    "mtime": 1783162414.4252715,
+    "ast_hash": "de868c0eb83cf9ff0411d5c78f156948",
+    "semantic_hash": ""
   },
   "server/routes/invite.js": {
     "mtime": 1783159830.1729333,
@@ -112,6 +112,11 @@
   "client/index.html": {
     "mtime": 1783159808.69966,
     "ast_hash": "d578c52ff75191731d9646edbeefcb64",
+    "semantic_hash": ""
+  },
+  "AGENT_HANDOFF.md": {
+    "mtime": 1783162921.750639,
+    "ast_hash": "9c9f9a0da9e2ae51bb694b21c617f3b2",
     "semantic_hash": ""
   }
 }

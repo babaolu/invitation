@@ -1,0 +1,117 @@
+{
+  "client/package.json": {
+    "mtime": 1783134155.3948257,
+    "ast_hash": "305ab6032487d97275d482e9bc45f6e9",
+    "semantic_hash": "305ab6032487d97275d482e9bc45f6e9"
+  },
+  "client/src/App.jsx": {
+    "mtime": 1783134155.3943396,
+    "ast_hash": "63e9c0a53165a816a2c49ee9e8bf1983",
+    "semantic_hash": "63e9c0a53165a816a2c49ee9e8bf1983"
+  },
+  "client/src/lib/supabaseClient.js": {
+    "mtime": 1783134155.3944833,
+    "ast_hash": "4a20cc13c64e6e508efc9da914529e21",
+    "semantic_hash": "4a20cc13c64e6e508efc9da914529e21"
+  },
+  "client/src/main.jsx": {
+    "mtime": 1783134155.3943992,
+    "ast_hash": "ec471e0da66adabd8f03e362ae39e837",
+    "semantic_hash": "ec471e0da66adabd8f03e362ae39e837"
+  },
+  "client/src/pages/AdminGuests.jsx": {
+    "mtime": 1783134155.3945875,
+    "ast_hash": "5ff0d40ae9f966e9b88ad2126aeecbd7",
+    "semantic_hash": "5ff0d40ae9f966e9b88ad2126aeecbd7"
+  },
+  "client/src/pages/AdminLogin.jsx": {
+    "mtime": 1783134155.3946424,
+    "ast_hash": "a04dc25ccecb70924f87c133c066b266",
+    "semantic_hash": "a04dc25ccecb70924f87c133c066b266"
+  },
+  "client/src/pages/InvitePage.jsx": {
+    "mtime": 1783134155.3946912,
+    "ast_hash": "e4b257e17f0165fa0a72cfece8e41efc",
+    "semantic_hash": "e4b257e17f0165fa0a72cfece8e41efc"
+  },
+  "client/src/pages/SeatingDirectory.jsx": {
+    "mtime": 1783134155.3947399,
+    "ast_hash": "5e93c4cc8c29c2dec82c39bc3624f007",
+    "semantic_hash": "5e93c4cc8c29c2dec82c39bc3624f007"
+  },
+  "client/vite.config.js": {
+    "mtime": 1783134155.3941827,
+    "ast_hash": "eb98c53348e57a55028f415914969a6b",
+    "semantic_hash": "eb98c53348e57a55028f415914969a6b"
+  },
+  "guests_parsed.json": {
+    "mtime": 1783128460.0,
+    "ast_hash": "7a39f582c97bfc7da0991bfb1302e8da",
+    "semantic_hash": "7a39f582c97bfc7da0991bfb1302e8da"
+  },
+  "server/index.js": {
+    "mtime": 1783134078.80115,
+    "ast_hash": "211fa4f5333267913e234e987a3a2322",
+    "semantic_hash": "211fa4f5333267913e234e987a3a2322"
+  },
+  "server/package.json": {
+    "mtime": 1783134078.801194,
+    "ast_hash": "d95dca61f200aa21916603bd30e34086",
+    "semantic_hash": "d95dca61f200aa21916603bd30e34086"
+  },
+  "server/routes/adminGuests.js": {
+    "mtime": 1783134078.8014367,
+    "ast_hash": "b6b6ecb855150216180dd5f7bd0c763c",
+    "semantic_hash": "b6b6ecb855150216180dd5f7bd0c763c"
+  },
+  "server/routes/invite.js": {
+    "mtime": 1783152968.5491114,
+    "ast_hash": "8e23dd8d4ff64eff17998b1ad0ef2dbc",
+    "semantic_hash": ""
+  },
+  "server/routes/seatingDirectory.js": {
+    "mtime": 1783134078.8013296,
+    "ast_hash": "527b8753c4428a6660a6b71c6ad7ccd9",
+    "semantic_hash": "527b8753c4428a6660a6b71c6ad7ccd9"
+  },
+  "server/supabaseClient.js": {
+    "mtime": 1783134078.8009095,
+    "ast_hash": "8a240cac54bd12e7c72318b8c8b9291b",
+    "semantic_hash": "8a240cac54bd12e7c72318b8c8b9291b"
+  },
+  "server/templates/invitationTemplate.js": {
+    "mtime": 1783134078.8010962,
+    "ast_hash": "8fec18694f290cca6d4cbcedfb23e58b",
+    "semantic_hash": "8fec18694f290cca6d4cbcedfb23e58b"
+  },
+  "supabase/schema.sql": {
+    "mtime": 1783127835.0,
+    "ast_hash": "3c036a16800fcc3c43c7b6693f903262",
+    "semantic_hash": "3c036a16800fcc3c43c7b6693f903262"
+  },
+  "supabase/seed.sql": {
+    "mtime": 1783128469.0,
+    "ast_hash": "9d09a1e9129b44c54949cda7e5e330b2",
+    "semantic_hash": "9d09a1e9129b44c54949cda7e5e330b2"
+  },
+  ".agents/rules/graphify.md": {
+    "mtime": 1783151984.5110004,
+    "ast_hash": "f1e53ecc9194573d3c28fc116c743a2e",
+    "semantic_hash": "f1e53ecc9194573d3c28fc116c743a2e"
+  },
+  ".agents/workflows/graphify.md": {
+    "mtime": 1783151984.511099,
+    "ast_hash": "0bc020d491fca99550c1ea3de0a5f862",
+    "semantic_hash": "0bc020d491fca99550c1ea3de0a5f862"
+  },
+  "README.md": {
+    "mtime": 1783128055.0,
+    "ast_hash": "96162a685b13c21fd4f7367b95af8fdf",
+    "semantic_hash": "96162a685b13c21fd4f7367b95af8fdf"
+  },
+  "client/index.html": {
+    "mtime": 1783134155.3947852,
+    "ast_hash": "6deb60dee9f4bbedfec447ea0839e335",
+    "semantic_hash": "6deb60dee9f4bbedfec447ea0839e335"
+  }
+}

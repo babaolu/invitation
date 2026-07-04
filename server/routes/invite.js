@@ -10,12 +10,18 @@ const router = express.Router();
 // instead of launching Chromium fresh on every PDF download.
 let browserInstance = null;
 async function getBrowser() {
-  if (!browserInstance) {
-    browserInstance = await puppeteer.launch({
-      headless: 'new',
-      args: ['--no-sandbox', '--disable-setuid-sandbox'],
-    });
+  if (browserInstance && browserInstance.isConnected()) {
+    return browserInstance;
   }
+  browserInstance = await puppeteer.launch({
+    headless: 'new',
+    args: [
+      '--no-sandbox',
+      '--disable-setuid-sandbox',
+      '--disable-dev-shm-usage',
+      '--disable-gpu',
+    ],
+  });
   return browserInstance;
 }
 
@@ -64,36 +70,54 @@ router.get('/api/invite/:slug/pdf', async (req, res) => {
   if (!result) return res.status(404).send('Invitation not found');
 
   const { guest, variant } = result;
+  let page;
 
-  // Generate a QR code that points back to this same guest page
-  const inviteUrl = `${process.env.PUBLIC_SITE_URL}/invite/${guest.slug}`;
-  const qrDataUrl = await QRCode.toDataURL(inviteUrl, { margin: 1, width: 200 });
+  try {
+    const inviteUrl = `${process.env.PUBLIC_SITE_URL}/invite/${guest.slug}`;
+    const qrDataUrl = await QRCode.toDataURL(inviteUrl, { margin: 1, width: 200 });
 
-  const html = renderInvitationHTML({
-    fullName: guest.full_name,
-    tableNumber: guest.table_number,
-    variant,
-    qrDataUrl,
-  });
+    const html = renderInvitationHTML({
+      fullName: guest.full_name,
+      tableNumber: guest.table_number,
+      variant,
+      qrDataUrl,
+    });
 
-  const browser = await getBrowser();
-  const page = await browser.newPage();
-  await page.setContent(html, { waitUntil: 'networkidle0' });
+    const browser = await getBrowser();
+    page = await browser.newPage();
 
-  const pdfBuffer = await page.pdf({
-    width: '148mm',
-    height: '210mm',
-    printBackground: true,
-    margin: { top: 0, bottom: 0, left: 0, right: 0 },
-  });
+    // Use 'load' instead of 'networkidle0' — networkidle0 waits for ALL
+    // network activity (including the Google Fonts @import) to fully
+    // settle, which can hang or time out in restricted/offline
+    // environments. 'load' is enough since we don't need fonts to
+    // finish loading perfectly for a valid PDF.
+    await page.setContent(html, { waitUntil: 'load', timeout: 15000 });
 
-  await page.close();
+    const pdfBuffer = await page.pdf({
+      width: '148mm',
+      height: '210mm',
+      printBackground: true,
+      margin: { top: 0, bottom: 0, left: 0, right: 0 },
+    });
 
-  res.set({
-    'Content-Type': 'application/pdf',
-    'Content-Disposition': `inline; filename="Enoch-Dedication-Invite-${guest.full_name.replace(/\s+/g, '-')}.pdf"`,
-  });
-  res.send(pdfBuffer);
+    await page.close();
+
+    // Guard against a "successful" call that still produced nothing usable
+    if (!pdfBuffer || pdfBuffer.length === 0) {
+      throw new Error('Puppeteer returned an empty PDF buffer');
+    }
+
+    res.set({
+      'Content-Type': 'application/pdf',
+      'Content-Disposition': `attachment; filename="Enoch-Dedication-Invite-${guest.full_name.replace(/\s+/g, '-')}.pdf"`,
+    });
+    res.send(Buffer.from(pdfBuffer));
+
+  } catch (err) {
+    console.error(`[PDF generation failed] slug=${req.params.slug}:`, err);
+    if (page) { try { await page.close(); } catch {} }
+    res.status(500).send('Failed to generate invitation PDF. Check server logs for details.');
+  }
 });
 
 export default router;

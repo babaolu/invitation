@@ -66,7 +66,7 @@ async function fetchGuestWithVariant(slug) {
 // GET /api/invite/:slug — fetch current guest info (for the React page to display)
 router.get('/api/invite/:slug', async (req, res) => {
   const result = await fetchGuestWithVariant(req.params.slug);
-  if (!result) return res.status(404).json({ error: 'Invitation not found' });
+  if (!result) return res.status(404).json({ error: 'Seating notification not found' });
 
   res.json({
     fullName: result.guest.full_name,
@@ -81,7 +81,7 @@ router.get('/api/invite/:slug', async (req, res) => {
 // current table assignment. This is the link guests download/re-download.
 router.get('/api/invite/:slug/pdf', async (req, res) => {
   const result = await fetchGuestWithVariant(req.params.slug);
-  if (!result) return res.status(404).send('Invitation not found');
+  if (!result) return res.status(404).send('Seating notification not found');
 
   const { guest, variant } = result;
   let page;
@@ -123,7 +123,7 @@ router.get('/api/invite/:slug/pdf', async (req, res) => {
 
     res.set({
       'Content-Type': 'application/pdf',
-      'Content-Disposition': `attachment; filename="Enoch-Dedication-Invite-${guest.full_name.replace(/\s+/g, '-')}.pdf"`,
+      'Content-Disposition': `attachment; filename="Enoch-Dedication-Seating-${guest.full_name.replace(/\s+/g, '-')}.pdf"`,
     });
     res.send(Buffer.from(pdfBuffer));
 

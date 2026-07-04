@@ -59,7 +59,7 @@ export default function AdminGuests() {
           <tr>
             <th>Name</th>
             <th>Table</th>
-            <th>Invite Link</th>
+            <th>Seating Link</th>
           </tr>
         </thead>
         <tbody>

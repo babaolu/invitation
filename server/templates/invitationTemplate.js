@@ -227,7 +227,7 @@ export function renderInvitationHTML({ fullName, tableNumber, variant, qrDataUrl
 
   .sub-heading {
     font-family: 'Cormorant Garamond', serif;
-    font-size: 18px; /* Increased from 14px */
+    font-size: 18px; /* Increased to 18px */
     font-style: italic;
     color: #6b7680;
     margin-bottom: 4mm;
@@ -239,7 +239,7 @@ export function renderInvitationHTML({ fullName, tableNumber, variant, qrDataUrl
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 4mm;
+    margin-bottom: 3.5mm;
   }
   .flourish-svg {
     width: 100%;
@@ -247,7 +247,7 @@ export function renderInvitationHTML({ fullName, tableNumber, variant, qrDataUrl
   }
 
   .guest-label {
-    font-size: 11px; /* Increased from 8px */
+    font-size: 11px; /* Increased to 8px */
     letter-spacing: 0.25em;
     text-transform: uppercase;
     color: #8b959c;
@@ -355,13 +355,13 @@ export function renderInvitationHTML({ fullName, tableNumber, variant, qrDataUrl
         <div class="ornament">${ornamentHtml}</div>
         <div class="pre-heading">A Special Celebration of Life</div>
         <div class="main-heading">Enoch's Dedication</div>
-        <div class="sub-heading">You're Invited</div>
+        <div class="sub-heading">Your Seating Details</div>
         <div class="flourish-divider">${FLOURISH_DIVIDER}</div>
       </div>
 
       <!-- Guest Section -->
       <div class="content-block">
-        <div class="guest-label">This Invitation Belongs To</div>
+        <div class="guest-label">This Seating Card Is Prepared For</div>
         <div class="guest-name">${escapeHtml(fullName)}</div>
       </div>
 
@@ -383,7 +383,7 @@ export function renderInvitationHTML({ fullName, tableNumber, variant, qrDataUrl
       <!-- QR Code Section -->
       <div class="content-block" style="width: auto;">
         <img class="qr-code" src="${qrDataUrl}" />
-        <div class="qr-hint">Scan to revisit this invitation</div>
+        <div class="qr-hint">Scan to revisit your seating details</div>
       </div>
     </div>
   </div>

@@ -104,13 +104,13 @@ export default function InvitePage() {
   }, [slug]);
 
   if (loading) {
-    return <div className="invite-wrap"><p className="invite-loading">Loading your invitation…</p></div>;
+    return <div className="invite-wrap"><p className="invite-loading">Loading your seating details…</p></div>;
   }
 
   if (error || !guest) {
     return (
       <div className="invite-wrap">
-        <p className="invite-error">We couldn't find that invitation. Please check your link, or contact the family.</p>
+        <p className="invite-error">We couldn't find that seating notification. Please check your link, or contact the family.</p>
       </div>
     );
   }
@@ -146,13 +146,13 @@ export default function InvitePage() {
               <div className="ornament">{ornamentComponent}</div>
               <div className="pre-heading">A Special Celebration of Life</div>
               <h1 className="main-heading">Enoch's Dedication</h1>
-              <p className="sub-heading">You're Invited</p>
+              <p className="sub-heading">Your Seating Details</p>
               <div className="flourish-divider">{FLOURISH_DIVIDER}</div>
             </div>
 
             {/* Guest Section */}
             <div className="guest-section content-block">
-              <div className="guest-label">This Invitation Belongs To</div>
+              <div className="guest-label">This Seating Card Is Prepared For</div>
               <div className="guest-name">{guest.fullName}</div>
             </div>
 
@@ -174,18 +174,18 @@ export default function InvitePage() {
             {/* QR Code Section */}
             <div className="qr-section content-block">
               <QRCodeSVG value={inviteUrl} size={84} />
-              <p className="qr-hint">Scan to revisit this invitation</p>
+              <p className="qr-hint">Scan to revisit your seating details</p>
             </div>
           </div>
         </div>
 
         {/* Action Button & Note (rendered elegantly outside the invitation card itself) */}
         <a className="download-btn" href={pdfUrl} target="_blank" rel="noopener noreferrer">
-          Download PDF
+          Download Seating Card
         </a>
 
         <p className="reload-note">
-          Your table may change before the event — this page and your PDF always show the current assignment.
+          Your table may be updated before the event — this page and your seating card always reflect the current assignment.
         </p>
       </div>
 

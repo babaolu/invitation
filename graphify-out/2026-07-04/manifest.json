@@ -20,9 +20,9 @@
     "semantic_hash": "ec471e0da66adabd8f03e362ae39e837"
   },
   "client/src/pages/AdminGuests.jsx": {
-    "mtime": 1783134155.3945875,
-    "ast_hash": "5ff0d40ae9f966e9b88ad2126aeecbd7",
-    "semantic_hash": "5ff0d40ae9f966e9b88ad2126aeecbd7"
+    "mtime": 1783159866.4685764,
+    "ast_hash": "073c6d905d6397a0e7645c8da8983a20",
+    "semantic_hash": ""
   },
   "client/src/pages/AdminLogin.jsx": {
     "mtime": 1783134155.3946424,
@@ -30,8 +30,8 @@
     "semantic_hash": "a04dc25ccecb70924f87c133c066b266"
   },
   "client/src/pages/InvitePage.jsx": {
-    "mtime": 1783153727.7236285,
-    "ast_hash": "91739322d2e01a62ea3c55d8ce9472bf",
+    "mtime": 1783159788.0613835,
+    "ast_hash": "983f4195c09717c982dd40da6b383bf0",
     "semantic_hash": ""
   },
   "client/src/pages/SeatingDirectory.jsx": {
@@ -65,8 +65,8 @@
     "semantic_hash": "b6b6ecb855150216180dd5f7bd0c763c"
   },
   "server/routes/invite.js": {
-    "mtime": 1783153979.3363903,
-    "ast_hash": "da3aa06f059a83478c54480f81d82ab7",
+    "mtime": 1783159830.1729333,
+    "ast_hash": "9a18b3d4bd42d4c1e7064b522df17289",
     "semantic_hash": ""
   },
   "server/routes/seatingDirectory.js": {
@@ -80,8 +80,8 @@
     "semantic_hash": "8a240cac54bd12e7c72318b8c8b9291b"
   },
   "server/templates/invitationTemplate.js": {
-    "mtime": 1783153708.5004115,
-    "ast_hash": "683f92edea1cb56fd0e5672c93784b05",
+    "mtime": 1783159742.7600338,
+    "ast_hash": "107581408fe3a1d2a38e02d90d0b9984",
     "semantic_hash": ""
   },
   "supabase/schema.sql": {
@@ -110,8 +110,8 @@
     "semantic_hash": "96162a685b13c21fd4f7367b95af8fdf"
   },
   "client/index.html": {
-    "mtime": 1783134155.3947852,
-    "ast_hash": "6deb60dee9f4bbedfec447ea0839e335",
-    "semantic_hash": "6deb60dee9f4bbedfec447ea0839e335"
+    "mtime": 1783159808.69966,
+    "ast_hash": "d578c52ff75191731d9646edbeefcb64",
+    "semantic_hash": ""
   }
 }

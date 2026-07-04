@@ -129,7 +129,7 @@
       "source_location": "L11",
       "_origin": "ast",
       "id": "client_package_dependencies",
-      "community": 3,
+      "community": 5,
       "norm_label": "dependencies"
     },
     {
@@ -139,7 +139,7 @@
       "source_location": "L12",
       "_origin": "ast",
       "id": "client_package_dependencies_supabase_supabase_js",
-      "community": 3,
+      "community": 5,
       "norm_label": "@supabase/supabase-js"
     },
     {
@@ -149,7 +149,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "client_package_dependencies_qrcode_react",
-      "community": 3,
+      "community": 5,
       "norm_label": "qrcode.react"
     },
     {
@@ -159,7 +159,7 @@
       "source_location": "L14",
       "_origin": "ast",
       "id": "client_package_dependencies_react",
-      "community": 3,
+      "community": 5,
       "norm_label": "react"
     },
     {
@@ -169,7 +169,7 @@
       "source_location": "L15",
       "_origin": "ast",
       "id": "client_package_dependencies_react_dom",
-      "community": 3,
+      "community": 5,
       "norm_label": "react-dom"
     },
     {
@@ -179,7 +179,7 @@
       "source_location": "L16",
       "_origin": "ast",
       "id": "client_package_dependencies_react_router_dom",
-      "community": 3,
+      "community": 5,
       "norm_label": "react-router-dom"
     },
     {
@@ -296,7 +296,7 @@
       "label": "AdminLogin()",
       "file_type": "code",
       "source_file": "client/src/pages/AdminLogin.jsx",
-      "source_location": "L5",
+      "source_location": "L27",
       "_origin": "ast",
       "id": "pages_adminlogin_adminlogin",
       "community": 2,
@@ -984,19 +984,6 @@
       "id": "server_index_js"
     },
     {
-      "label": "client/index.html",
-      "file_type": "code",
-      "source_file": "client/index.html",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 4,
-      "norm_label": "client/index.html",
-      "id": "client_index_html"
-    },
-    {
       "label": "client/src/main.jsx",
       "file_type": "code",
       "source_file": "client/src/main.jsx",
@@ -1005,7 +992,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 13,
       "norm_label": "client/src/main.jsx",
       "id": "client_main_jsx"
     },
@@ -1933,14 +1920,6 @@
       "confidence_score": 1.0,
       "source_file": "README.md",
       "source": "readme_enoch_s_dedication_guest_invitation_system",
-      "target": "client_index_html"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "README.md",
-      "source": "readme_enoch_s_dedication_guest_invitation_system",
       "target": "design_variants"
     },
     {
@@ -2112,14 +2091,6 @@
       "source_file": "README.md",
       "source": "readme_admin_dashboard",
       "target": "supabase_schema_sql"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "client/index.html",
-      "source": "client_index_html",
-      "target": "client_main_jsx"
     }
   ],
   "hyperedges": [
@@ -2150,5 +2121,5 @@
       "source_file": "README.md"
     }
   ],
-  "built_at_commit": "4aa84f3a569189150e8a8df005eff4a72aa27247"
+  "built_at_commit": "9dc5147b7096d4618203478ee87ebb71a1c50829"
 }

@@ -437,7 +437,7 @@ export default function InvitePage() {
 
         .download-btn {
           display: inline-block;
-          padding: 12px 40px;
+          padding: 14px 40px;
           border-radius: 30px;
           background: var(--accent);
           color: #fff;

@@ -65,8 +65,8 @@ export default function AdminGuests() {
         <tbody>
           {guests.map((g) => (
             <tr key={g.id}>
-              <td>{g.full_name}</td>
-              <td>
+              <td data-label="Name">{g.full_name}</td>
+              <td data-label="Table">
                 <input
                   type="number"
                   defaultValue={g.table_number}
@@ -78,7 +78,7 @@ export default function AdminGuests() {
                   }}
                 />
               </td>
-              <td>
+              <td data-label="Seating Link">
                 <a href={`/invite/${g.slug}`} target="_blank" rel="noopener noreferrer">
                   /invite/{g.slug}
                 </a>
@@ -94,11 +94,63 @@ export default function AdminGuests() {
         .admin-header h1 { font-family: 'Cormorant Garamond', serif; font-weight: 300; color: #2e3a40; }
         .admin-nav { display: flex; gap: 16px; align-items: center; }
         .admin-nav a { color: #7a9aaa; text-decoration: none; font-size: 14px; }
-        .admin-nav button { padding: 8px 16px; border: none; border-radius: 20px; background: #7a9aaa; color: #fff; cursor: pointer; }
+        .admin-nav button { padding: 8px 16px; border: none; border-radius: 20px; background: #7a9aaa; color: #fff; cursor: pointer; font-family: inherit; font-size: 13px; }
         .guest-table { width: 100%; border-collapse: collapse; background: #fff; border-radius: 8px; overflow: hidden; }
         .guest-table th, .guest-table td { padding: 10px 14px; text-align: left; border-bottom: 1px solid #eee; font-size: 13px; }
         .guest-table th { background: #eaf2f6; color: #4a6070; text-transform: uppercase; font-size: 11px; letter-spacing: 0.08em; }
-        .guest-table input { width: 60px; padding: 4px 8px; border: 1px solid #ddeaf0; border-radius: 4px; }
+        .guest-table input { width: 60px; padding: 4px 8px; border: 1px solid #ddeaf0; border-radius: 4px; font-family: inherit; }
+
+        @media (max-width: 600px) {
+          .admin-wrap { padding: 16px; }
+          .admin-header { flex-direction: column; align-items: flex-start; gap: 16px; }
+          .admin-nav { width: 100%; justify-content: space-between; }
+          
+          /* Stacked Card Layout on Mobile */
+          .guest-table, .guest-table thead, .guest-table tbody, .guest-table tr, .guest-table td {
+            display: block;
+            width: 100%;
+            box-sizing: border-box;
+          }
+          .guest-table thead {
+            display: none;
+          }
+          .guest-table tr {
+            margin-bottom: 16px;
+            border: 1px solid #ddeaf0;
+            border-radius: 8px;
+            background: #fff;
+            padding: 12px 16px;
+            box-shadow: 0 4px 10px rgba(90,128,144,0.04);
+          }
+          .guest-table td {
+            border: none;
+            border-bottom: 1px solid #f6f8fa;
+            padding: 10px 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+          }
+          .guest-table td:last-child {
+            border-bottom: none;
+            padding-bottom: 0;
+          }
+          .guest-table td::before {
+            content: attr(data-label);
+            font-weight: 600;
+            color: #4a6070;
+            font-size: 11px;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+          }
+          .guest-table input {
+            text-align: right;
+          }
+          .guest-table td[data-label="Seating Link"] a {
+            word-break: break-all;
+            text-align: right;
+            max-width: 65%;
+          }
+        }
       `}</style>
     </div>
   );

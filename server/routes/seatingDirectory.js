@@ -16,13 +16,13 @@ function shuffle(array) {
 async function buildShuffledDirectory() {
   const { data: guests } = await supabase
     .from('guests')
-    .select('full_name, table_number')
+    .select('id, full_name, table_number')
     .order('table_number');
 
   const grouped = {};
   for (const g of guests) {
     if (!grouped[g.table_number]) grouped[g.table_number] = [];
-    grouped[g.table_number].push(g.full_name);
+    grouped[g.table_number].push({ id: g.id, full_name: g.full_name, table_number: g.table_number });
   }
 
   // Shuffle table order
@@ -127,7 +127,7 @@ router.get('/api/admin/seating-directory/pdf', async (req, res) => {
       ${directory.map(t => `
         <div class="table-block">
           <div class="table-title">Table ${t.tableNumber}</div>
-          ${t.guests.map(name => `<div class="guest-item">${escapeHtml(name)}</div>`).join('')}
+          ${t.guests.map(g => `<div class="guest-item">${escapeHtml(g.full_name)}</div>`).join('')}
         </div>
       `).join('')}
     </div>
